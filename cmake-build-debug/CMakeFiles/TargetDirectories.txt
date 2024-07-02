@@ -4,5 +4,12 @@ E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/add_two_numbers.dir
 E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/merge_sorted_array.dir
 E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/remove_element.dir
 E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/remove_duplicates_from_sorted_array.dir
+E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/remove_duplicates_from_sorted_arrayII.dir
+E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/majority_element.dir
+E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/rotate_array.dir
+E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/best_time_to_bay_and_sell_stock.dir
+E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/best_time_to_bay_and_sell_stock_II.dir
+E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/jump_game.dir
+E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/jump_game_II.dir
 E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/rebuild_cache.dir
