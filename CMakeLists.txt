@@ -17,3 +17,6 @@ add_executable(best_time_to_bay_and_sell_stock "Interview classic 150 questions/
 add_executable(best_time_to_bay_and_sell_stock_II "Interview classic 150 questions/Arrar and string/best_time_to_bay_and_sell_stock_II.cpp")
 add_executable(jump_game "Interview classic 150 questions/Arrar and string/jump_game.cpp")
 add_executable(jump_game_II "Interview classic 150 questions/Arrar and string/jump_game_II.cpp")
+add_executable(H-index "Interview classic 150 questions/Arrar and string/H-index.cpp")
+add_executable(insert_delete_getRandom_O1 "Interview classic 150 questions/Arrar and string/insert_delete_getRandom_O1.cpp")
+add_executable(product_of_array_except_self "Interview classic 150 questions/Arrar and string/product_of_array_except_self.cpp")
