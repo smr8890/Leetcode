@@ -18,5 +18,8 @@ E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/gas_station.dir
 E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/candy.dir
 E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/trapping_rain_water.dir
 E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/roman_to_integer.dir
+E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/integer_to_roman.dir
+E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/length_of_last_word.dir
+E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/longest_common_prefix.dir
 E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/rebuild_cache.dir

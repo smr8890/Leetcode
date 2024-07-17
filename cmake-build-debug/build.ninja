@@ -700,6 +700,105 @@ build roman_to_integer.exe: CXX_EXECUTABLE_LINKER__roman_to_integer_Debug CMakeF
   TARGET_IMPLIB = libroman_to_integer.dll.a
   TARGET_PDB = roman_to_integer.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target integer_to_roman
+
+
+#############################################
+# Order-only phony target for integer_to_roman
+
+build cmake_object_order_depends_target_integer_to_roman: phony || CMakeFiles/integer_to_roman.dir
+
+build CMakeFiles/integer_to_roman.dir/Interview_classic_150_questions/Arrar_and_string/integer_to_roman.cpp.obj: CXX_COMPILER__integer_to_roman_unscanned_Debug E$:/Project/CProject/Leetcode/Interview$ classic$ 150$ questions/Arrar$ and$ string/integer_to_roman.cpp || cmake_object_order_depends_target_integer_to_roman
+  DEP_FILE = CMakeFiles\integer_to_roman.dir\Interview_classic_150_questions\Arrar_and_string\integer_to_roman.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\integer_to_roman.dir
+  OBJECT_FILE_DIR = CMakeFiles\integer_to_roman.dir\Interview_classic_150_questions\Arrar_and_string
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target integer_to_roman
+
+
+#############################################
+# Link the executable integer_to_roman.exe
+
+build integer_to_roman.exe: CXX_EXECUTABLE_LINKER__integer_to_roman_Debug CMakeFiles/integer_to_roman.dir/Interview_classic_150_questions/Arrar_and_string/integer_to_roman.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\integer_to_roman.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = integer_to_roman.exe
+  TARGET_IMPLIB = libinteger_to_roman.dll.a
+  TARGET_PDB = integer_to_roman.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target length_of_last_word
+
+
+#############################################
+# Order-only phony target for length_of_last_word
+
+build cmake_object_order_depends_target_length_of_last_word: phony || CMakeFiles/length_of_last_word.dir
+
+build CMakeFiles/length_of_last_word.dir/Interview_classic_150_questions/Arrar_and_string/length_of_last_word.cpp.obj: CXX_COMPILER__length_of_last_word_unscanned_Debug E$:/Project/CProject/Leetcode/Interview$ classic$ 150$ questions/Arrar$ and$ string/length_of_last_word.cpp || cmake_object_order_depends_target_length_of_last_word
+  DEP_FILE = CMakeFiles\length_of_last_word.dir\Interview_classic_150_questions\Arrar_and_string\length_of_last_word.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\length_of_last_word.dir
+  OBJECT_FILE_DIR = CMakeFiles\length_of_last_word.dir\Interview_classic_150_questions\Arrar_and_string
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target length_of_last_word
+
+
+#############################################
+# Link the executable length_of_last_word.exe
+
+build length_of_last_word.exe: CXX_EXECUTABLE_LINKER__length_of_last_word_Debug CMakeFiles/length_of_last_word.dir/Interview_classic_150_questions/Arrar_and_string/length_of_last_word.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\length_of_last_word.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = length_of_last_word.exe
+  TARGET_IMPLIB = liblength_of_last_word.dll.a
+  TARGET_PDB = length_of_last_word.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target longest_common_prefix
+
+
+#############################################
+# Order-only phony target for longest_common_prefix
+
+build cmake_object_order_depends_target_longest_common_prefix: phony || CMakeFiles/longest_common_prefix.dir
+
+build CMakeFiles/longest_common_prefix.dir/Interview_classic_150_questions/Arrar_and_string/longest_common_prefix.cpp.obj: CXX_COMPILER__longest_common_prefix_unscanned_Debug E$:/Project/CProject/Leetcode/Interview$ classic$ 150$ questions/Arrar$ and$ string/longest_common_prefix.cpp || cmake_object_order_depends_target_longest_common_prefix
+  DEP_FILE = CMakeFiles\longest_common_prefix.dir\Interview_classic_150_questions\Arrar_and_string\longest_common_prefix.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\longest_common_prefix.dir
+  OBJECT_FILE_DIR = CMakeFiles\longest_common_prefix.dir\Interview_classic_150_questions\Arrar_and_string
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target longest_common_prefix
+
+
+#############################################
+# Link the executable longest_common_prefix.exe
+
+build longest_common_prefix.exe: CXX_EXECUTABLE_LINKER__longest_common_prefix_Debug CMakeFiles/longest_common_prefix.dir/Interview_classic_150_questions/Arrar_and_string/longest_common_prefix.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\longest_common_prefix.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = longest_common_prefix.exe
+  TARGET_IMPLIB = liblongest_common_prefix.dll.a
+  TARGET_PDB = longest_common_prefix.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -742,9 +841,15 @@ build gas_station: phony gas_station.exe
 
 build insert_delete_getRandom_O1: phony insert_delete_getRandom_O1.exe
 
+build integer_to_roman: phony integer_to_roman.exe
+
 build jump_game: phony jump_game.exe
 
 build jump_game_II: phony jump_game_II.exe
+
+build length_of_last_word: phony length_of_last_word.exe
+
+build longest_common_prefix: phony longest_common_prefix.exe
 
 build majority_element: phony majority_element.exe
 
@@ -774,7 +879,7 @@ build two_sum: phony two_sum.exe
 #############################################
 # Folder: E:/Project/CProject/Leetcode/cmake-build-debug
 
-build all: phony Leetcode.exe two_sum.exe add_two_numbers.exe merge_sorted_array.exe remove_element.exe remove_duplicates_from_sorted_array.exe remove_duplicates_from_sorted_arrayII.exe majority_element.exe rotate_array.exe best_time_to_bay_and_sell_stock.exe best_time_to_bay_and_sell_stock_II.exe jump_game.exe jump_game_II.exe H-index.exe insert_delete_getRandom_O1.exe product_of_array_except_self.exe gas_station.exe candy.exe trapping_rain_water.exe roman_to_integer.exe
+build all: phony Leetcode.exe two_sum.exe add_two_numbers.exe merge_sorted_array.exe remove_element.exe remove_duplicates_from_sorted_array.exe remove_duplicates_from_sorted_arrayII.exe majority_element.exe rotate_array.exe best_time_to_bay_and_sell_stock.exe best_time_to_bay_and_sell_stock_II.exe jump_game.exe jump_game_II.exe H-index.exe insert_delete_getRandom_O1.exe product_of_array_except_self.exe gas_station.exe candy.exe trapping_rain_water.exe roman_to_integer.exe integer_to_roman.exe length_of_last_word.exe longest_common_prefix.exe
 
 # =============================================================================
 # Built-in targets

@@ -24,3 +24,6 @@ add_executable(gas_station "Interview classic 150 questions/Arrar and string/gas
 add_executable(candy "Interview classic 150 questions/Arrar and string/candy.cpp")
 add_executable(trapping_rain_water "Interview classic 150 questions/Arrar and string/trapping_rain_water.cpp")
 add_executable(roman_to_integer "Interview classic 150 questions/Arrar and string/roman_to_integer.cpp")
+add_executable(integer_to_roman "Interview classic 150 questions/Arrar and string/integer_to_roman.cpp")
+add_executable(length_of_last_word "Interview classic 150 questions/Arrar and string/length_of_last_word.cpp")
+add_executable(longest_common_prefix "Interview classic 150 questions/Arrar and string/longest_common_prefix.cpp")
