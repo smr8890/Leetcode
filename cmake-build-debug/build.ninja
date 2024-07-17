@@ -568,6 +568,138 @@ build product_of_array_except_self.exe: CXX_EXECUTABLE_LINKER__product_of_array_
   TARGET_IMPLIB = libproduct_of_array_except_self.dll.a
   TARGET_PDB = product_of_array_except_self.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target gas_station
+
+
+#############################################
+# Order-only phony target for gas_station
+
+build cmake_object_order_depends_target_gas_station: phony || CMakeFiles/gas_station.dir
+
+build CMakeFiles/gas_station.dir/Interview_classic_150_questions/Arrar_and_string/gas_station.cpp.obj: CXX_COMPILER__gas_station_unscanned_Debug E$:/Project/CProject/Leetcode/Interview$ classic$ 150$ questions/Arrar$ and$ string/gas_station.cpp || cmake_object_order_depends_target_gas_station
+  DEP_FILE = CMakeFiles\gas_station.dir\Interview_classic_150_questions\Arrar_and_string\gas_station.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\gas_station.dir
+  OBJECT_FILE_DIR = CMakeFiles\gas_station.dir\Interview_classic_150_questions\Arrar_and_string
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target gas_station
+
+
+#############################################
+# Link the executable gas_station.exe
+
+build gas_station.exe: CXX_EXECUTABLE_LINKER__gas_station_Debug CMakeFiles/gas_station.dir/Interview_classic_150_questions/Arrar_and_string/gas_station.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\gas_station.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = gas_station.exe
+  TARGET_IMPLIB = libgas_station.dll.a
+  TARGET_PDB = gas_station.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target candy
+
+
+#############################################
+# Order-only phony target for candy
+
+build cmake_object_order_depends_target_candy: phony || CMakeFiles/candy.dir
+
+build CMakeFiles/candy.dir/Interview_classic_150_questions/Arrar_and_string/candy.cpp.obj: CXX_COMPILER__candy_unscanned_Debug E$:/Project/CProject/Leetcode/Interview$ classic$ 150$ questions/Arrar$ and$ string/candy.cpp || cmake_object_order_depends_target_candy
+  DEP_FILE = CMakeFiles\candy.dir\Interview_classic_150_questions\Arrar_and_string\candy.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\candy.dir
+  OBJECT_FILE_DIR = CMakeFiles\candy.dir\Interview_classic_150_questions\Arrar_and_string
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target candy
+
+
+#############################################
+# Link the executable candy.exe
+
+build candy.exe: CXX_EXECUTABLE_LINKER__candy_Debug CMakeFiles/candy.dir/Interview_classic_150_questions/Arrar_and_string/candy.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\candy.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = candy.exe
+  TARGET_IMPLIB = libcandy.dll.a
+  TARGET_PDB = candy.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target trapping_rain_water
+
+
+#############################################
+# Order-only phony target for trapping_rain_water
+
+build cmake_object_order_depends_target_trapping_rain_water: phony || CMakeFiles/trapping_rain_water.dir
+
+build CMakeFiles/trapping_rain_water.dir/Interview_classic_150_questions/Arrar_and_string/trapping_rain_water.cpp.obj: CXX_COMPILER__trapping_rain_water_unscanned_Debug E$:/Project/CProject/Leetcode/Interview$ classic$ 150$ questions/Arrar$ and$ string/trapping_rain_water.cpp || cmake_object_order_depends_target_trapping_rain_water
+  DEP_FILE = CMakeFiles\trapping_rain_water.dir\Interview_classic_150_questions\Arrar_and_string\trapping_rain_water.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\trapping_rain_water.dir
+  OBJECT_FILE_DIR = CMakeFiles\trapping_rain_water.dir\Interview_classic_150_questions\Arrar_and_string
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target trapping_rain_water
+
+
+#############################################
+# Link the executable trapping_rain_water.exe
+
+build trapping_rain_water.exe: CXX_EXECUTABLE_LINKER__trapping_rain_water_Debug CMakeFiles/trapping_rain_water.dir/Interview_classic_150_questions/Arrar_and_string/trapping_rain_water.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\trapping_rain_water.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = trapping_rain_water.exe
+  TARGET_IMPLIB = libtrapping_rain_water.dll.a
+  TARGET_PDB = trapping_rain_water.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target roman_to_integer
+
+
+#############################################
+# Order-only phony target for roman_to_integer
+
+build cmake_object_order_depends_target_roman_to_integer: phony || CMakeFiles/roman_to_integer.dir
+
+build CMakeFiles/roman_to_integer.dir/Interview_classic_150_questions/Arrar_and_string/roman_to_integer.cpp.obj: CXX_COMPILER__roman_to_integer_unscanned_Debug E$:/Project/CProject/Leetcode/Interview$ classic$ 150$ questions/Arrar$ and$ string/roman_to_integer.cpp || cmake_object_order_depends_target_roman_to_integer
+  DEP_FILE = CMakeFiles\roman_to_integer.dir\Interview_classic_150_questions\Arrar_and_string\roman_to_integer.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\roman_to_integer.dir
+  OBJECT_FILE_DIR = CMakeFiles\roman_to_integer.dir\Interview_classic_150_questions\Arrar_and_string
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target roman_to_integer
+
+
+#############################################
+# Link the executable roman_to_integer.exe
+
+build roman_to_integer.exe: CXX_EXECUTABLE_LINKER__roman_to_integer_Debug CMakeFiles/roman_to_integer.dir/Interview_classic_150_questions/Arrar_and_string/roman_to_integer.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\roman_to_integer.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = roman_to_integer.exe
+  TARGET_IMPLIB = libroman_to_integer.dll.a
+  TARGET_PDB = roman_to_integer.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -604,6 +736,10 @@ build best_time_to_bay_and_sell_stock: phony best_time_to_bay_and_sell_stock.exe
 
 build best_time_to_bay_and_sell_stock_II: phony best_time_to_bay_and_sell_stock_II.exe
 
+build candy: phony candy.exe
+
+build gas_station: phony gas_station.exe
+
 build insert_delete_getRandom_O1: phony insert_delete_getRandom_O1.exe
 
 build jump_game: phony jump_game.exe
@@ -622,7 +758,11 @@ build remove_duplicates_from_sorted_arrayII: phony remove_duplicates_from_sorted
 
 build remove_element: phony remove_element.exe
 
+build roman_to_integer: phony roman_to_integer.exe
+
 build rotate_array: phony rotate_array.exe
+
+build trapping_rain_water: phony trapping_rain_water.exe
 
 build two_sum: phony two_sum.exe
 
@@ -634,7 +774,7 @@ build two_sum: phony two_sum.exe
 #############################################
 # Folder: E:/Project/CProject/Leetcode/cmake-build-debug
 
-build all: phony Leetcode.exe two_sum.exe add_two_numbers.exe merge_sorted_array.exe remove_element.exe remove_duplicates_from_sorted_array.exe remove_duplicates_from_sorted_arrayII.exe majority_element.exe rotate_array.exe best_time_to_bay_and_sell_stock.exe best_time_to_bay_and_sell_stock_II.exe jump_game.exe jump_game_II.exe H-index.exe insert_delete_getRandom_O1.exe product_of_array_except_self.exe
+build all: phony Leetcode.exe two_sum.exe add_two_numbers.exe merge_sorted_array.exe remove_element.exe remove_duplicates_from_sorted_array.exe remove_duplicates_from_sorted_arrayII.exe majority_element.exe rotate_array.exe best_time_to_bay_and_sell_stock.exe best_time_to_bay_and_sell_stock_II.exe jump_game.exe jump_game_II.exe H-index.exe insert_delete_getRandom_O1.exe product_of_array_except_self.exe gas_station.exe candy.exe trapping_rain_water.exe roman_to_integer.exe
 
 # =============================================================================
 # Built-in targets

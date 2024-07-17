@@ -14,5 +14,9 @@ E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/jump_game_II.dir
 E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/H-index.dir
 E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/insert_delete_getRandom_O1.dir
 E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/product_of_array_except_self.dir
+E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/gas_station.dir
+E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/candy.dir
+E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/trapping_rain_water.dir
+E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/roman_to_integer.dir
 E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/rebuild_cache.dir

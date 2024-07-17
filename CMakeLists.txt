@@ -20,3 +20,7 @@ add_executable(jump_game_II "Interview classic 150 questions/Arrar and string/ju
 add_executable(H-index "Interview classic 150 questions/Arrar and string/H-index.cpp")
 add_executable(insert_delete_getRandom_O1 "Interview classic 150 questions/Arrar and string/insert_delete_getRandom_O1.cpp")
 add_executable(product_of_array_except_self "Interview classic 150 questions/Arrar and string/product_of_array_except_self.cpp")
+add_executable(gas_station "Interview classic 150 questions/Arrar and string/gas_station.cpp")
+add_executable(candy "Interview classic 150 questions/Arrar and string/candy.cpp")
+add_executable(trapping_rain_water "Interview classic 150 questions/Arrar and string/trapping_rain_water.cpp")
+add_executable(roman_to_integer "Interview classic 150 questions/Arrar and string/roman_to_integer.cpp")
