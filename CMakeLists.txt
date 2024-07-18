@@ -27,3 +27,8 @@ add_executable(roman_to_integer "Interview classic 150 questions/Arrar and strin
 add_executable(integer_to_roman "Interview classic 150 questions/Arrar and string/integer_to_roman.cpp")
 add_executable(length_of_last_word "Interview classic 150 questions/Arrar and string/length_of_last_word.cpp")
 add_executable(longest_common_prefix "Interview classic 150 questions/Arrar and string/longest_common_prefix.cpp")
+add_executable(reverse_words_in_a_string "Interview classic 150 questions/Arrar and string/reverse_words_in_a_string.cpp")
+add_executable(Zigzag_conversion "Interview classic 150 questions/Arrar and string/Zigzag_conversion.cpp")
+add_executable(find_the_index_of_the_first_occurrence_in_a_string "Interview classic 150 questions/Arrar and string/find_the_index_of_the_first_occurrence_in_a_string.cpp")
+add_executable(valid_palindrome "Interview classic 150 questions/double pointer/valid_palindrome.cpp")
+add_executable(is_subsequence "Interview classic 150 questions/double pointer/is_subsequence.cpp")

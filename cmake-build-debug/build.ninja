@@ -799,6 +799,171 @@ build longest_common_prefix.exe: CXX_EXECUTABLE_LINKER__longest_common_prefix_De
   TARGET_IMPLIB = liblongest_common_prefix.dll.a
   TARGET_PDB = longest_common_prefix.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target reverse_words_in_a_string
+
+
+#############################################
+# Order-only phony target for reverse_words_in_a_string
+
+build cmake_object_order_depends_target_reverse_words_in_a_string: phony || CMakeFiles/reverse_words_in_a_string.dir
+
+build CMakeFiles/reverse_words_in_a_string.dir/Interview_classic_150_questions/Arrar_and_string/reverse_words_in_a_string.cpp.obj: CXX_COMPILER__reverse_words_in_a_string_unscanned_Debug E$:/Project/CProject/Leetcode/Interview$ classic$ 150$ questions/Arrar$ and$ string/reverse_words_in_a_string.cpp || cmake_object_order_depends_target_reverse_words_in_a_string
+  DEP_FILE = CMakeFiles\reverse_words_in_a_string.dir\Interview_classic_150_questions\Arrar_and_string\reverse_words_in_a_string.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\reverse_words_in_a_string.dir
+  OBJECT_FILE_DIR = CMakeFiles\reverse_words_in_a_string.dir\Interview_classic_150_questions\Arrar_and_string
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target reverse_words_in_a_string
+
+
+#############################################
+# Link the executable reverse_words_in_a_string.exe
+
+build reverse_words_in_a_string.exe: CXX_EXECUTABLE_LINKER__reverse_words_in_a_string_Debug CMakeFiles/reverse_words_in_a_string.dir/Interview_classic_150_questions/Arrar_and_string/reverse_words_in_a_string.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\reverse_words_in_a_string.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = reverse_words_in_a_string.exe
+  TARGET_IMPLIB = libreverse_words_in_a_string.dll.a
+  TARGET_PDB = reverse_words_in_a_string.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Zigzag_conversion
+
+
+#############################################
+# Order-only phony target for Zigzag_conversion
+
+build cmake_object_order_depends_target_Zigzag_conversion: phony || CMakeFiles/Zigzag_conversion.dir
+
+build CMakeFiles/Zigzag_conversion.dir/Interview_classic_150_questions/Arrar_and_string/Zigzag_conversion.cpp.obj: CXX_COMPILER__Zigzag_conversion_unscanned_Debug E$:/Project/CProject/Leetcode/Interview$ classic$ 150$ questions/Arrar$ and$ string/Zigzag_conversion.cpp || cmake_object_order_depends_target_Zigzag_conversion
+  DEP_FILE = CMakeFiles\Zigzag_conversion.dir\Interview_classic_150_questions\Arrar_and_string\Zigzag_conversion.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Zigzag_conversion.dir
+  OBJECT_FILE_DIR = CMakeFiles\Zigzag_conversion.dir\Interview_classic_150_questions\Arrar_and_string
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Zigzag_conversion
+
+
+#############################################
+# Link the executable Zigzag_conversion.exe
+
+build Zigzag_conversion.exe: CXX_EXECUTABLE_LINKER__Zigzag_conversion_Debug CMakeFiles/Zigzag_conversion.dir/Interview_classic_150_questions/Arrar_and_string/Zigzag_conversion.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Zigzag_conversion.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Zigzag_conversion.exe
+  TARGET_IMPLIB = libZigzag_conversion.dll.a
+  TARGET_PDB = Zigzag_conversion.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target find_the_index_of_the_first_occurrence_in_a_string
+
+
+#############################################
+# Order-only phony target for find_the_index_of_the_first_occurrence_in_a_string
+
+build cmake_object_order_depends_target_find_the_index_of_the_first_occurrence_in_a_string: phony || CMakeFiles/find_the_index_of_the_first_occurrence_in_a_string.dir
+
+build CMakeFiles/find_the_index_of_the_first_occurrence_in_a_string.dir/Interview_classic_150_questions/Arrar_and_string/find_the_index_of_the_first_occurrence_in_a_string.cpp.obj: CXX_COMPILER__find_the_index_of_the_first_occurrence_in_a_string_unscanned_Debug E$:/Project/CProject/Leetcode/Interview$ classic$ 150$ questions/Arrar$ and$ string/find_the_index_of_the_first_occurrence_in_a_string.cpp || cmake_object_order_depends_target_find_the_index_of_the_first_occurrence_in_a_string
+  DEP_FILE = CMakeFiles\find_the_index_of_the_first_occurrence_in_a_string.dir\Interview_classic_150_questions\Arrar_and_string\find_the_index_of_the_first_occurrence_in_a_string.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\find_the_index_of_the_first_occurrence_in_a_string.dir
+  OBJECT_FILE_DIR = CMakeFiles\find_the_index_of_the_first_occurrence_in_a_string.dir\Interview_classic_150_questions\Arrar_and_string
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target find_the_index_of_the_first_occurrence_in_a_string
+
+
+#############################################
+# Link the executable find_the_index_of_the_first_occurrence_in_a_string.exe
+
+build find_the_index_of_the_first_occurrence_in_a_string.exe: CXX_EXECUTABLE_LINKER__find_the_index_of_the_first_occurrence_in_a_string_Debug CMakeFiles/find_the_index_of_the_first_occurrence_in_a_string.dir/Interview_classic_150_questions/Arrar_and_string/find_the_index_of_the_first_occurrence_in_a_string.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\find_the_index_of_the_first_occurrence_in_a_string.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = find_the_index_of_the_first_occurrence_in_a_string.exe
+  TARGET_IMPLIB = libfind_the_index_of_the_first_occurrence_in_a_string.dll.a
+  TARGET_PDB = find_the_index_of_the_first_occurrence_in_a_string.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target valid_palindrome
+
+
+#############################################
+# Order-only phony target for valid_palindrome
+
+build cmake_object_order_depends_target_valid_palindrome: phony || CMakeFiles/valid_palindrome.dir
+
+build CMakeFiles/valid_palindrome.dir/Interview_classic_150_questions/double_pointer/valid_palindrome.cpp.obj: CXX_COMPILER__valid_palindrome_unscanned_Debug E$:/Project/CProject/Leetcode/Interview$ classic$ 150$ questions/double$ pointer/valid_palindrome.cpp || cmake_object_order_depends_target_valid_palindrome
+  DEP_FILE = CMakeFiles\valid_palindrome.dir\Interview_classic_150_questions\double_pointer\valid_palindrome.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\valid_palindrome.dir
+  OBJECT_FILE_DIR = CMakeFiles\valid_palindrome.dir\Interview_classic_150_questions\double_pointer
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target valid_palindrome
+
+
+#############################################
+# Link the executable valid_palindrome.exe
+
+build valid_palindrome.exe: CXX_EXECUTABLE_LINKER__valid_palindrome_Debug CMakeFiles/valid_palindrome.dir/Interview_classic_150_questions/double_pointer/valid_palindrome.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\valid_palindrome.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = valid_palindrome.exe
+  TARGET_IMPLIB = libvalid_palindrome.dll.a
+  TARGET_PDB = valid_palindrome.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target is_subsequence
+
+
+#############################################
+# Order-only phony target for is_subsequence
+
+build cmake_object_order_depends_target_is_subsequence: phony || CMakeFiles/is_subsequence.dir
+
+build CMakeFiles/is_subsequence.dir/Interview_classic_150_questions/double_pointer/is_subsequence.cpp.obj: CXX_COMPILER__is_subsequence_unscanned_Debug E$:/Project/CProject/Leetcode/Interview$ classic$ 150$ questions/double$ pointer/is_subsequence.cpp || cmake_object_order_depends_target_is_subsequence
+  DEP_FILE = CMakeFiles\is_subsequence.dir\Interview_classic_150_questions\double_pointer\is_subsequence.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\is_subsequence.dir
+  OBJECT_FILE_DIR = CMakeFiles\is_subsequence.dir\Interview_classic_150_questions\double_pointer
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target is_subsequence
+
+
+#############################################
+# Link the executable is_subsequence.exe
+
+build is_subsequence.exe: CXX_EXECUTABLE_LINKER__is_subsequence_Debug CMakeFiles/is_subsequence.dir/Interview_classic_150_questions/double_pointer/is_subsequence.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\is_subsequence.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = is_subsequence.exe
+  TARGET_IMPLIB = libis_subsequence.dll.a
+  TARGET_PDB = is_subsequence.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -829,6 +994,8 @@ build H-index: phony H-index.exe
 
 build Leetcode: phony Leetcode.exe
 
+build Zigzag_conversion: phony Zigzag_conversion.exe
+
 build add_two_numbers: phony add_two_numbers.exe
 
 build best_time_to_bay_and_sell_stock: phony best_time_to_bay_and_sell_stock.exe
@@ -837,11 +1004,15 @@ build best_time_to_bay_and_sell_stock_II: phony best_time_to_bay_and_sell_stock_
 
 build candy: phony candy.exe
 
+build find_the_index_of_the_first_occurrence_in_a_string: phony find_the_index_of_the_first_occurrence_in_a_string.exe
+
 build gas_station: phony gas_station.exe
 
 build insert_delete_getRandom_O1: phony insert_delete_getRandom_O1.exe
 
 build integer_to_roman: phony integer_to_roman.exe
+
+build is_subsequence: phony is_subsequence.exe
 
 build jump_game: phony jump_game.exe
 
@@ -863,6 +1034,8 @@ build remove_duplicates_from_sorted_arrayII: phony remove_duplicates_from_sorted
 
 build remove_element: phony remove_element.exe
 
+build reverse_words_in_a_string: phony reverse_words_in_a_string.exe
+
 build roman_to_integer: phony roman_to_integer.exe
 
 build rotate_array: phony rotate_array.exe
@@ -870,6 +1043,8 @@ build rotate_array: phony rotate_array.exe
 build trapping_rain_water: phony trapping_rain_water.exe
 
 build two_sum: phony two_sum.exe
+
+build valid_palindrome: phony valid_palindrome.exe
 
 # =============================================================================
 # Folder targets.
@@ -879,7 +1054,7 @@ build two_sum: phony two_sum.exe
 #############################################
 # Folder: E:/Project/CProject/Leetcode/cmake-build-debug
 
-build all: phony Leetcode.exe two_sum.exe add_two_numbers.exe merge_sorted_array.exe remove_element.exe remove_duplicates_from_sorted_array.exe remove_duplicates_from_sorted_arrayII.exe majority_element.exe rotate_array.exe best_time_to_bay_and_sell_stock.exe best_time_to_bay_and_sell_stock_II.exe jump_game.exe jump_game_II.exe H-index.exe insert_delete_getRandom_O1.exe product_of_array_except_self.exe gas_station.exe candy.exe trapping_rain_water.exe roman_to_integer.exe integer_to_roman.exe length_of_last_word.exe longest_common_prefix.exe
+build all: phony Leetcode.exe two_sum.exe add_two_numbers.exe merge_sorted_array.exe remove_element.exe remove_duplicates_from_sorted_array.exe remove_duplicates_from_sorted_arrayII.exe majority_element.exe rotate_array.exe best_time_to_bay_and_sell_stock.exe best_time_to_bay_and_sell_stock_II.exe jump_game.exe jump_game_II.exe H-index.exe insert_delete_getRandom_O1.exe product_of_array_except_self.exe gas_station.exe candy.exe trapping_rain_water.exe roman_to_integer.exe integer_to_roman.exe length_of_last_word.exe longest_common_prefix.exe reverse_words_in_a_string.exe Zigzag_conversion.exe find_the_index_of_the_first_occurrence_in_a_string.exe valid_palindrome.exe is_subsequence.exe
 
 # =============================================================================
 # Built-in targets
