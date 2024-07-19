@@ -26,5 +26,9 @@ E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/Zigzag_conversion.dir
 E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/find_the_index_of_the_first_occurrence_in_a_string.dir
 E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/valid_palindrome.dir
 E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/is_subsequence.dir
+E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/two_sum_II_input_array_is_sorted.dir
+E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/container_with_most_water.dir
+E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/3sum.dir
+E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/minimum_size_subarray_sum.dir
 E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/rebuild_cache.dir

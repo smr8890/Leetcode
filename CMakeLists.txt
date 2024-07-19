@@ -32,3 +32,7 @@ add_executable(Zigzag_conversion "Interview classic 150 questions/Arrar and stri
 add_executable(find_the_index_of_the_first_occurrence_in_a_string "Interview classic 150 questions/Arrar and string/find_the_index_of_the_first_occurrence_in_a_string.cpp")
 add_executable(valid_palindrome "Interview classic 150 questions/double pointer/valid_palindrome.cpp")
 add_executable(is_subsequence "Interview classic 150 questions/double pointer/is_subsequence.cpp")
+add_executable(two_sum_II_input_array_is_sorted "Interview classic 150 questions/double pointer/two_sum_II_input_array_is_sorted.cpp")
+add_executable(container_with_most_water "Interview classic 150 questions/double pointer/container_with_most_water.cpp")
+add_executable(3sum "Interview classic 150 questions/double pointer/3sum.cpp")
+add_executable(minimum_size_subarray_sum "Interview classic 150 questions/sliding window/minimum_size_subarray_sum.cpp")

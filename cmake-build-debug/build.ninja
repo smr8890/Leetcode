@@ -964,6 +964,138 @@ build is_subsequence.exe: CXX_EXECUTABLE_LINKER__is_subsequence_Debug CMakeFiles
   TARGET_IMPLIB = libis_subsequence.dll.a
   TARGET_PDB = is_subsequence.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target two_sum_II_input_array_is_sorted
+
+
+#############################################
+# Order-only phony target for two_sum_II_input_array_is_sorted
+
+build cmake_object_order_depends_target_two_sum_II_input_array_is_sorted: phony || CMakeFiles/two_sum_II_input_array_is_sorted.dir
+
+build CMakeFiles/two_sum_II_input_array_is_sorted.dir/Interview_classic_150_questions/double_pointer/two_sum_II_input_array_is_sorted.cpp.obj: CXX_COMPILER__two_sum_II_input_array_is_sorted_unscanned_Debug E$:/Project/CProject/Leetcode/Interview$ classic$ 150$ questions/double$ pointer/two_sum_II_input_array_is_sorted.cpp || cmake_object_order_depends_target_two_sum_II_input_array_is_sorted
+  DEP_FILE = CMakeFiles\two_sum_II_input_array_is_sorted.dir\Interview_classic_150_questions\double_pointer\two_sum_II_input_array_is_sorted.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\two_sum_II_input_array_is_sorted.dir
+  OBJECT_FILE_DIR = CMakeFiles\two_sum_II_input_array_is_sorted.dir\Interview_classic_150_questions\double_pointer
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target two_sum_II_input_array_is_sorted
+
+
+#############################################
+# Link the executable two_sum_II_input_array_is_sorted.exe
+
+build two_sum_II_input_array_is_sorted.exe: CXX_EXECUTABLE_LINKER__two_sum_II_input_array_is_sorted_Debug CMakeFiles/two_sum_II_input_array_is_sorted.dir/Interview_classic_150_questions/double_pointer/two_sum_II_input_array_is_sorted.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\two_sum_II_input_array_is_sorted.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = two_sum_II_input_array_is_sorted.exe
+  TARGET_IMPLIB = libtwo_sum_II_input_array_is_sorted.dll.a
+  TARGET_PDB = two_sum_II_input_array_is_sorted.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target container_with_most_water
+
+
+#############################################
+# Order-only phony target for container_with_most_water
+
+build cmake_object_order_depends_target_container_with_most_water: phony || CMakeFiles/container_with_most_water.dir
+
+build CMakeFiles/container_with_most_water.dir/Interview_classic_150_questions/double_pointer/container_with_most_water.cpp.obj: CXX_COMPILER__container_with_most_water_unscanned_Debug E$:/Project/CProject/Leetcode/Interview$ classic$ 150$ questions/double$ pointer/container_with_most_water.cpp || cmake_object_order_depends_target_container_with_most_water
+  DEP_FILE = CMakeFiles\container_with_most_water.dir\Interview_classic_150_questions\double_pointer\container_with_most_water.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\container_with_most_water.dir
+  OBJECT_FILE_DIR = CMakeFiles\container_with_most_water.dir\Interview_classic_150_questions\double_pointer
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target container_with_most_water
+
+
+#############################################
+# Link the executable container_with_most_water.exe
+
+build container_with_most_water.exe: CXX_EXECUTABLE_LINKER__container_with_most_water_Debug CMakeFiles/container_with_most_water.dir/Interview_classic_150_questions/double_pointer/container_with_most_water.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\container_with_most_water.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = container_with_most_water.exe
+  TARGET_IMPLIB = libcontainer_with_most_water.dll.a
+  TARGET_PDB = container_with_most_water.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 3sum
+
+
+#############################################
+# Order-only phony target for 3sum
+
+build cmake_object_order_depends_target_3sum: phony || CMakeFiles/3sum.dir
+
+build CMakeFiles/3sum.dir/Interview_classic_150_questions/double_pointer/3sum.cpp.obj: CXX_COMPILER__3sum_unscanned_Debug E$:/Project/CProject/Leetcode/Interview$ classic$ 150$ questions/double$ pointer/3sum.cpp || cmake_object_order_depends_target_3sum
+  DEP_FILE = CMakeFiles\3sum.dir\Interview_classic_150_questions\double_pointer\3sum.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\3sum.dir
+  OBJECT_FILE_DIR = CMakeFiles\3sum.dir\Interview_classic_150_questions\double_pointer
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 3sum
+
+
+#############################################
+# Link the executable 3sum.exe
+
+build 3sum.exe: CXX_EXECUTABLE_LINKER__3sum_Debug CMakeFiles/3sum.dir/Interview_classic_150_questions/double_pointer/3sum.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\3sum.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 3sum.exe
+  TARGET_IMPLIB = lib3sum.dll.a
+  TARGET_PDB = 3sum.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target minimum_size_subarray_sum
+
+
+#############################################
+# Order-only phony target for minimum_size_subarray_sum
+
+build cmake_object_order_depends_target_minimum_size_subarray_sum: phony || CMakeFiles/minimum_size_subarray_sum.dir
+
+build CMakeFiles/minimum_size_subarray_sum.dir/Interview_classic_150_questions/sliding_window/minimum_size_subarray_sum.cpp.obj: CXX_COMPILER__minimum_size_subarray_sum_unscanned_Debug E$:/Project/CProject/Leetcode/Interview$ classic$ 150$ questions/sliding$ window/minimum_size_subarray_sum.cpp || cmake_object_order_depends_target_minimum_size_subarray_sum
+  DEP_FILE = CMakeFiles\minimum_size_subarray_sum.dir\Interview_classic_150_questions\sliding_window\minimum_size_subarray_sum.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\minimum_size_subarray_sum.dir
+  OBJECT_FILE_DIR = CMakeFiles\minimum_size_subarray_sum.dir\Interview_classic_150_questions\sliding_window
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target minimum_size_subarray_sum
+
+
+#############################################
+# Link the executable minimum_size_subarray_sum.exe
+
+build minimum_size_subarray_sum.exe: CXX_EXECUTABLE_LINKER__minimum_size_subarray_sum_Debug CMakeFiles/minimum_size_subarray_sum.dir/Interview_classic_150_questions/sliding_window/minimum_size_subarray_sum.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\minimum_size_subarray_sum.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = minimum_size_subarray_sum.exe
+  TARGET_IMPLIB = libminimum_size_subarray_sum.dll.a
+  TARGET_PDB = minimum_size_subarray_sum.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -990,6 +1122,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build 3sum: phony 3sum.exe
+
 build H-index: phony H-index.exe
 
 build Leetcode: phony Leetcode.exe
@@ -1003,6 +1137,8 @@ build best_time_to_bay_and_sell_stock: phony best_time_to_bay_and_sell_stock.exe
 build best_time_to_bay_and_sell_stock_II: phony best_time_to_bay_and_sell_stock_II.exe
 
 build candy: phony candy.exe
+
+build container_with_most_water: phony container_with_most_water.exe
 
 build find_the_index_of_the_first_occurrence_in_a_string: phony find_the_index_of_the_first_occurrence_in_a_string.exe
 
@@ -1026,6 +1162,8 @@ build majority_element: phony majority_element.exe
 
 build merge_sorted_array: phony merge_sorted_array.exe
 
+build minimum_size_subarray_sum: phony minimum_size_subarray_sum.exe
+
 build product_of_array_except_self: phony product_of_array_except_self.exe
 
 build remove_duplicates_from_sorted_array: phony remove_duplicates_from_sorted_array.exe
@@ -1044,6 +1182,8 @@ build trapping_rain_water: phony trapping_rain_water.exe
 
 build two_sum: phony two_sum.exe
 
+build two_sum_II_input_array_is_sorted: phony two_sum_II_input_array_is_sorted.exe
+
 build valid_palindrome: phony valid_palindrome.exe
 
 # =============================================================================
@@ -1054,7 +1194,7 @@ build valid_palindrome: phony valid_palindrome.exe
 #############################################
 # Folder: E:/Project/CProject/Leetcode/cmake-build-debug
 
-build all: phony Leetcode.exe two_sum.exe add_two_numbers.exe merge_sorted_array.exe remove_element.exe remove_duplicates_from_sorted_array.exe remove_duplicates_from_sorted_arrayII.exe majority_element.exe rotate_array.exe best_time_to_bay_and_sell_stock.exe best_time_to_bay_and_sell_stock_II.exe jump_game.exe jump_game_II.exe H-index.exe insert_delete_getRandom_O1.exe product_of_array_except_self.exe gas_station.exe candy.exe trapping_rain_water.exe roman_to_integer.exe integer_to_roman.exe length_of_last_word.exe longest_common_prefix.exe reverse_words_in_a_string.exe Zigzag_conversion.exe find_the_index_of_the_first_occurrence_in_a_string.exe valid_palindrome.exe is_subsequence.exe
+build all: phony Leetcode.exe two_sum.exe add_two_numbers.exe merge_sorted_array.exe remove_element.exe remove_duplicates_from_sorted_array.exe remove_duplicates_from_sorted_arrayII.exe majority_element.exe rotate_array.exe best_time_to_bay_and_sell_stock.exe best_time_to_bay_and_sell_stock_II.exe jump_game.exe jump_game_II.exe H-index.exe insert_delete_getRandom_O1.exe product_of_array_except_self.exe gas_station.exe candy.exe trapping_rain_water.exe roman_to_integer.exe integer_to_roman.exe length_of_last_word.exe longest_common_prefix.exe reverse_words_in_a_string.exe Zigzag_conversion.exe find_the_index_of_the_first_occurrence_in_a_string.exe valid_palindrome.exe is_subsequence.exe two_sum_II_input_array_is_sorted.exe container_with_most_water.exe 3sum.exe minimum_size_subarray_sum.exe
 
 # =============================================================================
 # Built-in targets
