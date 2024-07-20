@@ -1096,6 +1096,204 @@ build minimum_size_subarray_sum.exe: CXX_EXECUTABLE_LINKER__minimum_size_subarra
   TARGET_IMPLIB = libminimum_size_subarray_sum.dll.a
   TARGET_PDB = minimum_size_subarray_sum.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target longest_substring_without_repeating_characters
+
+
+#############################################
+# Order-only phony target for longest_substring_without_repeating_characters
+
+build cmake_object_order_depends_target_longest_substring_without_repeating_characters: phony || CMakeFiles/longest_substring_without_repeating_characters.dir
+
+build CMakeFiles/longest_substring_without_repeating_characters.dir/Interview_classic_150_questions/sliding_window/longest_substring_without_repeating_characters.cpp.obj: CXX_COMPILER__longest_substring_without_repeating_characters_unscanned_Debug E$:/Project/CProject/Leetcode/Interview$ classic$ 150$ questions/sliding$ window/longest_substring_without_repeating_characters.cpp || cmake_object_order_depends_target_longest_substring_without_repeating_characters
+  DEP_FILE = CMakeFiles\longest_substring_without_repeating_characters.dir\Interview_classic_150_questions\sliding_window\longest_substring_without_repeating_characters.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\longest_substring_without_repeating_characters.dir
+  OBJECT_FILE_DIR = CMakeFiles\longest_substring_without_repeating_characters.dir\Interview_classic_150_questions\sliding_window
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target longest_substring_without_repeating_characters
+
+
+#############################################
+# Link the executable longest_substring_without_repeating_characters.exe
+
+build longest_substring_without_repeating_characters.exe: CXX_EXECUTABLE_LINKER__longest_substring_without_repeating_characters_Debug CMakeFiles/longest_substring_without_repeating_characters.dir/Interview_classic_150_questions/sliding_window/longest_substring_without_repeating_characters.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\longest_substring_without_repeating_characters.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = longest_substring_without_repeating_characters.exe
+  TARGET_IMPLIB = liblongest_substring_without_repeating_characters.dll.a
+  TARGET_PDB = longest_substring_without_repeating_characters.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ransom_note
+
+
+#############################################
+# Order-only phony target for ransom_note
+
+build cmake_object_order_depends_target_ransom_note: phony || CMakeFiles/ransom_note.dir
+
+build CMakeFiles/ransom_note.dir/Interview_classic_150_questions/Hash_table/ransom_note.cpp.obj: CXX_COMPILER__ransom_note_unscanned_Debug E$:/Project/CProject/Leetcode/Interview$ classic$ 150$ questions/Hash$ table/ransom_note.cpp || cmake_object_order_depends_target_ransom_note
+  DEP_FILE = CMakeFiles\ransom_note.dir\Interview_classic_150_questions\Hash_table\ransom_note.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ransom_note.dir
+  OBJECT_FILE_DIR = CMakeFiles\ransom_note.dir\Interview_classic_150_questions\Hash_table
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ransom_note
+
+
+#############################################
+# Link the executable ransom_note.exe
+
+build ransom_note.exe: CXX_EXECUTABLE_LINKER__ransom_note_Debug CMakeFiles/ransom_note.dir/Interview_classic_150_questions/Hash_table/ransom_note.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ransom_note.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ransom_note.exe
+  TARGET_IMPLIB = libransom_note.dll.a
+  TARGET_PDB = ransom_note.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target isomorphic_strings
+
+
+#############################################
+# Order-only phony target for isomorphic_strings
+
+build cmake_object_order_depends_target_isomorphic_strings: phony || CMakeFiles/isomorphic_strings.dir
+
+build CMakeFiles/isomorphic_strings.dir/Interview_classic_150_questions/Hash_table/isomorphic_strings.cpp.obj: CXX_COMPILER__isomorphic_strings_unscanned_Debug E$:/Project/CProject/Leetcode/Interview$ classic$ 150$ questions/Hash$ table/isomorphic_strings.cpp || cmake_object_order_depends_target_isomorphic_strings
+  DEP_FILE = CMakeFiles\isomorphic_strings.dir\Interview_classic_150_questions\Hash_table\isomorphic_strings.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\isomorphic_strings.dir
+  OBJECT_FILE_DIR = CMakeFiles\isomorphic_strings.dir\Interview_classic_150_questions\Hash_table
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target isomorphic_strings
+
+
+#############################################
+# Link the executable isomorphic_strings.exe
+
+build isomorphic_strings.exe: CXX_EXECUTABLE_LINKER__isomorphic_strings_Debug CMakeFiles/isomorphic_strings.dir/Interview_classic_150_questions/Hash_table/isomorphic_strings.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\isomorphic_strings.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = isomorphic_strings.exe
+  TARGET_IMPLIB = libisomorphic_strings.dll.a
+  TARGET_PDB = isomorphic_strings.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target word_pattern
+
+
+#############################################
+# Order-only phony target for word_pattern
+
+build cmake_object_order_depends_target_word_pattern: phony || CMakeFiles/word_pattern.dir
+
+build CMakeFiles/word_pattern.dir/Interview_classic_150_questions/Hash_table/word_pattern.cpp.obj: CXX_COMPILER__word_pattern_unscanned_Debug E$:/Project/CProject/Leetcode/Interview$ classic$ 150$ questions/Hash$ table/word_pattern.cpp || cmake_object_order_depends_target_word_pattern
+  DEP_FILE = CMakeFiles\word_pattern.dir\Interview_classic_150_questions\Hash_table\word_pattern.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\word_pattern.dir
+  OBJECT_FILE_DIR = CMakeFiles\word_pattern.dir\Interview_classic_150_questions\Hash_table
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target word_pattern
+
+
+#############################################
+# Link the executable word_pattern.exe
+
+build word_pattern.exe: CXX_EXECUTABLE_LINKER__word_pattern_Debug CMakeFiles/word_pattern.dir/Interview_classic_150_questions/Hash_table/word_pattern.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\word_pattern.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = word_pattern.exe
+  TARGET_IMPLIB = libword_pattern.dll.a
+  TARGET_PDB = word_pattern.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target valid_anagram
+
+
+#############################################
+# Order-only phony target for valid_anagram
+
+build cmake_object_order_depends_target_valid_anagram: phony || CMakeFiles/valid_anagram.dir
+
+build CMakeFiles/valid_anagram.dir/Interview_classic_150_questions/Hash_table/valid_anagram.cpp.obj: CXX_COMPILER__valid_anagram_unscanned_Debug E$:/Project/CProject/Leetcode/Interview$ classic$ 150$ questions/Hash$ table/valid_anagram.cpp || cmake_object_order_depends_target_valid_anagram
+  DEP_FILE = CMakeFiles\valid_anagram.dir\Interview_classic_150_questions\Hash_table\valid_anagram.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\valid_anagram.dir
+  OBJECT_FILE_DIR = CMakeFiles\valid_anagram.dir\Interview_classic_150_questions\Hash_table
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target valid_anagram
+
+
+#############################################
+# Link the executable valid_anagram.exe
+
+build valid_anagram.exe: CXX_EXECUTABLE_LINKER__valid_anagram_Debug CMakeFiles/valid_anagram.dir/Interview_classic_150_questions/Hash_table/valid_anagram.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\valid_anagram.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = valid_anagram.exe
+  TARGET_IMPLIB = libvalid_anagram.dll.a
+  TARGET_PDB = valid_anagram.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target group_anagram
+
+
+#############################################
+# Order-only phony target for group_anagram
+
+build cmake_object_order_depends_target_group_anagram: phony || CMakeFiles/group_anagram.dir
+
+build CMakeFiles/group_anagram.dir/Interview_classic_150_questions/Hash_table/group_anagrams.cpp.obj: CXX_COMPILER__group_anagram_unscanned_Debug E$:/Project/CProject/Leetcode/Interview$ classic$ 150$ questions/Hash$ table/group_anagrams.cpp || cmake_object_order_depends_target_group_anagram
+  DEP_FILE = CMakeFiles\group_anagram.dir\Interview_classic_150_questions\Hash_table\group_anagrams.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\group_anagram.dir
+  OBJECT_FILE_DIR = CMakeFiles\group_anagram.dir\Interview_classic_150_questions\Hash_table
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target group_anagram
+
+
+#############################################
+# Link the executable group_anagram.exe
+
+build group_anagram.exe: CXX_EXECUTABLE_LINKER__group_anagram_Debug CMakeFiles/group_anagram.dir/Interview_classic_150_questions/Hash_table/group_anagrams.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\group_anagram.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = group_anagram.exe
+  TARGET_IMPLIB = libgroup_anagram.dll.a
+  TARGET_PDB = group_anagram.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1144,11 +1342,15 @@ build find_the_index_of_the_first_occurrence_in_a_string: phony find_the_index_o
 
 build gas_station: phony gas_station.exe
 
+build group_anagram: phony group_anagram.exe
+
 build insert_delete_getRandom_O1: phony insert_delete_getRandom_O1.exe
 
 build integer_to_roman: phony integer_to_roman.exe
 
 build is_subsequence: phony is_subsequence.exe
+
+build isomorphic_strings: phony isomorphic_strings.exe
 
 build jump_game: phony jump_game.exe
 
@@ -1158,6 +1360,8 @@ build length_of_last_word: phony length_of_last_word.exe
 
 build longest_common_prefix: phony longest_common_prefix.exe
 
+build longest_substring_without_repeating_characters: phony longest_substring_without_repeating_characters.exe
+
 build majority_element: phony majority_element.exe
 
 build merge_sorted_array: phony merge_sorted_array.exe
@@ -1165,6 +1369,8 @@ build merge_sorted_array: phony merge_sorted_array.exe
 build minimum_size_subarray_sum: phony minimum_size_subarray_sum.exe
 
 build product_of_array_except_self: phony product_of_array_except_self.exe
+
+build ransom_note: phony ransom_note.exe
 
 build remove_duplicates_from_sorted_array: phony remove_duplicates_from_sorted_array.exe
 
@@ -1184,7 +1390,11 @@ build two_sum: phony two_sum.exe
 
 build two_sum_II_input_array_is_sorted: phony two_sum_II_input_array_is_sorted.exe
 
+build valid_anagram: phony valid_anagram.exe
+
 build valid_palindrome: phony valid_palindrome.exe
+
+build word_pattern: phony word_pattern.exe
 
 # =============================================================================
 # Folder targets.
@@ -1194,7 +1404,7 @@ build valid_palindrome: phony valid_palindrome.exe
 #############################################
 # Folder: E:/Project/CProject/Leetcode/cmake-build-debug
 
-build all: phony Leetcode.exe two_sum.exe add_two_numbers.exe merge_sorted_array.exe remove_element.exe remove_duplicates_from_sorted_array.exe remove_duplicates_from_sorted_arrayII.exe majority_element.exe rotate_array.exe best_time_to_bay_and_sell_stock.exe best_time_to_bay_and_sell_stock_II.exe jump_game.exe jump_game_II.exe H-index.exe insert_delete_getRandom_O1.exe product_of_array_except_self.exe gas_station.exe candy.exe trapping_rain_water.exe roman_to_integer.exe integer_to_roman.exe length_of_last_word.exe longest_common_prefix.exe reverse_words_in_a_string.exe Zigzag_conversion.exe find_the_index_of_the_first_occurrence_in_a_string.exe valid_palindrome.exe is_subsequence.exe two_sum_II_input_array_is_sorted.exe container_with_most_water.exe 3sum.exe minimum_size_subarray_sum.exe
+build all: phony Leetcode.exe two_sum.exe add_two_numbers.exe merge_sorted_array.exe remove_element.exe remove_duplicates_from_sorted_array.exe remove_duplicates_from_sorted_arrayII.exe majority_element.exe rotate_array.exe best_time_to_bay_and_sell_stock.exe best_time_to_bay_and_sell_stock_II.exe jump_game.exe jump_game_II.exe H-index.exe insert_delete_getRandom_O1.exe product_of_array_except_self.exe gas_station.exe candy.exe trapping_rain_water.exe roman_to_integer.exe integer_to_roman.exe length_of_last_word.exe longest_common_prefix.exe reverse_words_in_a_string.exe Zigzag_conversion.exe find_the_index_of_the_first_occurrence_in_a_string.exe valid_palindrome.exe is_subsequence.exe two_sum_II_input_array_is_sorted.exe container_with_most_water.exe 3sum.exe minimum_size_subarray_sum.exe longest_substring_without_repeating_characters.exe ransom_note.exe isomorphic_strings.exe word_pattern.exe valid_anagram.exe group_anagram.exe
 
 # =============================================================================
 # Built-in targets
