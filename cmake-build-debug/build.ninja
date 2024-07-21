@@ -1294,6 +1294,72 @@ build group_anagram.exe: CXX_EXECUTABLE_LINKER__group_anagram_Debug CMakeFiles/g
   TARGET_IMPLIB = libgroup_anagram.dll.a
   TARGET_PDB = group_anagram.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target happy_number
+
+
+#############################################
+# Order-only phony target for happy_number
+
+build cmake_object_order_depends_target_happy_number: phony || CMakeFiles/happy_number.dir
+
+build CMakeFiles/happy_number.dir/Interview_classic_150_questions/Hash_table/happy_number.cpp.obj: CXX_COMPILER__happy_number_unscanned_Debug E$:/Project/CProject/Leetcode/Interview$ classic$ 150$ questions/Hash$ table/happy_number.cpp || cmake_object_order_depends_target_happy_number
+  DEP_FILE = CMakeFiles\happy_number.dir\Interview_classic_150_questions\Hash_table\happy_number.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\happy_number.dir
+  OBJECT_FILE_DIR = CMakeFiles\happy_number.dir\Interview_classic_150_questions\Hash_table
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target happy_number
+
+
+#############################################
+# Link the executable happy_number.exe
+
+build happy_number.exe: CXX_EXECUTABLE_LINKER__happy_number_Debug CMakeFiles/happy_number.dir/Interview_classic_150_questions/Hash_table/happy_number.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\happy_number.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = happy_number.exe
+  TARGET_IMPLIB = libhappy_number.dll.a
+  TARGET_PDB = happy_number.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target contains_duplicate_II
+
+
+#############################################
+# Order-only phony target for contains_duplicate_II
+
+build cmake_object_order_depends_target_contains_duplicate_II: phony || CMakeFiles/contains_duplicate_II.dir
+
+build CMakeFiles/contains_duplicate_II.dir/Interview_classic_150_questions/Hash_table/contains_duplicate_II.cpp.obj: CXX_COMPILER__contains_duplicate_II_unscanned_Debug E$:/Project/CProject/Leetcode/Interview$ classic$ 150$ questions/Hash$ table/contains_duplicate_II.cpp || cmake_object_order_depends_target_contains_duplicate_II
+  DEP_FILE = CMakeFiles\contains_duplicate_II.dir\Interview_classic_150_questions\Hash_table\contains_duplicate_II.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\contains_duplicate_II.dir
+  OBJECT_FILE_DIR = CMakeFiles\contains_duplicate_II.dir\Interview_classic_150_questions\Hash_table
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target contains_duplicate_II
+
+
+#############################################
+# Link the executable contains_duplicate_II.exe
+
+build contains_duplicate_II.exe: CXX_EXECUTABLE_LINKER__contains_duplicate_II_Debug CMakeFiles/contains_duplicate_II.dir/Interview_classic_150_questions/Hash_table/contains_duplicate_II.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\contains_duplicate_II.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = contains_duplicate_II.exe
+  TARGET_IMPLIB = libcontains_duplicate_II.dll.a
+  TARGET_PDB = contains_duplicate_II.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1338,11 +1404,15 @@ build candy: phony candy.exe
 
 build container_with_most_water: phony container_with_most_water.exe
 
+build contains_duplicate_II: phony contains_duplicate_II.exe
+
 build find_the_index_of_the_first_occurrence_in_a_string: phony find_the_index_of_the_first_occurrence_in_a_string.exe
 
 build gas_station: phony gas_station.exe
 
 build group_anagram: phony group_anagram.exe
+
+build happy_number: phony happy_number.exe
 
 build insert_delete_getRandom_O1: phony insert_delete_getRandom_O1.exe
 
@@ -1404,7 +1474,7 @@ build word_pattern: phony word_pattern.exe
 #############################################
 # Folder: E:/Project/CProject/Leetcode/cmake-build-debug
 
-build all: phony Leetcode.exe two_sum.exe add_two_numbers.exe merge_sorted_array.exe remove_element.exe remove_duplicates_from_sorted_array.exe remove_duplicates_from_sorted_arrayII.exe majority_element.exe rotate_array.exe best_time_to_bay_and_sell_stock.exe best_time_to_bay_and_sell_stock_II.exe jump_game.exe jump_game_II.exe H-index.exe insert_delete_getRandom_O1.exe product_of_array_except_self.exe gas_station.exe candy.exe trapping_rain_water.exe roman_to_integer.exe integer_to_roman.exe length_of_last_word.exe longest_common_prefix.exe reverse_words_in_a_string.exe Zigzag_conversion.exe find_the_index_of_the_first_occurrence_in_a_string.exe valid_palindrome.exe is_subsequence.exe two_sum_II_input_array_is_sorted.exe container_with_most_water.exe 3sum.exe minimum_size_subarray_sum.exe longest_substring_without_repeating_characters.exe ransom_note.exe isomorphic_strings.exe word_pattern.exe valid_anagram.exe group_anagram.exe
+build all: phony Leetcode.exe two_sum.exe add_two_numbers.exe merge_sorted_array.exe remove_element.exe remove_duplicates_from_sorted_array.exe remove_duplicates_from_sorted_arrayII.exe majority_element.exe rotate_array.exe best_time_to_bay_and_sell_stock.exe best_time_to_bay_and_sell_stock_II.exe jump_game.exe jump_game_II.exe H-index.exe insert_delete_getRandom_O1.exe product_of_array_except_self.exe gas_station.exe candy.exe trapping_rain_water.exe roman_to_integer.exe integer_to_roman.exe length_of_last_word.exe longest_common_prefix.exe reverse_words_in_a_string.exe Zigzag_conversion.exe find_the_index_of_the_first_occurrence_in_a_string.exe valid_palindrome.exe is_subsequence.exe two_sum_II_input_array_is_sorted.exe container_with_most_water.exe 3sum.exe minimum_size_subarray_sum.exe longest_substring_without_repeating_characters.exe ransom_note.exe isomorphic_strings.exe word_pattern.exe valid_anagram.exe group_anagram.exe happy_number.exe contains_duplicate_II.exe
 
 # =============================================================================
 # Built-in targets

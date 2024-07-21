@@ -36,5 +36,7 @@ E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/isomorphic_strings.dir
 E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/word_pattern.dir
 E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/valid_anagram.dir
 E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/group_anagram.dir
+E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/happy_number.dir
+E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/contains_duplicate_II.dir
 E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/rebuild_cache.dir

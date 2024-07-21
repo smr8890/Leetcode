@@ -42,3 +42,5 @@ add_executable(isomorphic_strings "Interview classic 150 questions/Hash table/is
 add_executable(word_pattern "Interview classic 150 questions/Hash table/word_pattern.cpp")
 add_executable(valid_anagram "Interview classic 150 questions/Hash table/valid_anagram.cpp")
 add_executable(group_anagram "Interview classic 150 questions/Hash table/group_anagrams.cpp")
+add_executable(happy_number "Interview classic 150 questions/Hash table/happy_number.cpp")
+add_executable(contains_duplicate_II "Interview classic 150 questions/Hash table/contains_duplicate_II.cpp")

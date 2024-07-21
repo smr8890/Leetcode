@@ -1,4 +1,6 @@
+#include <algorithm>
 #include <iostream>
+#include <unordered_map>
 #include <vector>
 using namespace std;
 
@@ -22,21 +24,38 @@ public:
 
     vector<vector<string> > groupAnagrams(vector<string> &strs) {
         vector<vector<string> > result;
-        int i = 0;
-        while (!strs.empty()) {
-            result[i].push_back(strs[0]);
-            strs.erase(strs.begin());
-            int j = 0;
-            while (j < strs.size()) {
-                if (isAnagram(result[i][0], strs[j])) {
-                    result[i].push_back(strs[j]);
-                    strs.erase(strs.begin() + j);
-                } else {
-                    j++;
-                }
-            }
-            i++;
+        // int i = 0;
+        // while (!strs.empty()) {
+        //     result.resize(i+1);
+        //     result[i].push_back(strs[0]);
+        //     strs.erase(strs.begin());
+        //     int j = 0;
+        //     while (j < strs.size()) {
+        //         if (isAnagram(result[i][0], strs[j])) {
+        //             result[i].push_back(strs[j]);
+        //             strs.erase(strs.begin() + j);
+        //         } else {
+        //             j++;
+        //         }
+        //     }
+        //     i++;
+        // }
+        unordered_map<string, vector<string> > map;
+        for (auto &str: strs) {
+            string value = str;
+            sort(str.begin(), str.end());
+            map[str].emplace_back(value);
+        }
+        for (auto &it: map) {
+            result.emplace_back(it.second);
         }
         return result;
     }
 };
+
+int main() {
+    vector<string> strs({"eat", "tea", "tan", "ate", "nat", "bat"});
+    Solution mysolution;
+    vector<vector<string> > result = mysolution.groupAnagrams(strs);
+    return 0;
+}
