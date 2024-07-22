@@ -1360,6 +1360,138 @@ build contains_duplicate_II.exe: CXX_EXECUTABLE_LINKER__contains_duplicate_II_De
   TARGET_IMPLIB = libcontains_duplicate_II.dll.a
   TARGET_PDB = contains_duplicate_II.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target longest_consecutive_sequence
+
+
+#############################################
+# Order-only phony target for longest_consecutive_sequence
+
+build cmake_object_order_depends_target_longest_consecutive_sequence: phony || CMakeFiles/longest_consecutive_sequence.dir
+
+build CMakeFiles/longest_consecutive_sequence.dir/Interview_classic_150_questions/Hash_table/longest_consecutive_sequence.cpp.obj: CXX_COMPILER__longest_consecutive_sequence_unscanned_Debug E$:/Project/CProject/Leetcode/Interview$ classic$ 150$ questions/Hash$ table/longest_consecutive_sequence.cpp || cmake_object_order_depends_target_longest_consecutive_sequence
+  DEP_FILE = CMakeFiles\longest_consecutive_sequence.dir\Interview_classic_150_questions\Hash_table\longest_consecutive_sequence.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\longest_consecutive_sequence.dir
+  OBJECT_FILE_DIR = CMakeFiles\longest_consecutive_sequence.dir\Interview_classic_150_questions\Hash_table
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target longest_consecutive_sequence
+
+
+#############################################
+# Link the executable longest_consecutive_sequence.exe
+
+build longest_consecutive_sequence.exe: CXX_EXECUTABLE_LINKER__longest_consecutive_sequence_Debug CMakeFiles/longest_consecutive_sequence.dir/Interview_classic_150_questions/Hash_table/longest_consecutive_sequence.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\longest_consecutive_sequence.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = longest_consecutive_sequence.exe
+  TARGET_IMPLIB = liblongest_consecutive_sequence.dll.a
+  TARGET_PDB = longest_consecutive_sequence.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target summary_ranges
+
+
+#############################################
+# Order-only phony target for summary_ranges
+
+build cmake_object_order_depends_target_summary_ranges: phony || CMakeFiles/summary_ranges.dir
+
+build CMakeFiles/summary_ranges.dir/Interview_classic_150_questions/range/summary_ranges.cpp.obj: CXX_COMPILER__summary_ranges_unscanned_Debug E$:/Project/CProject/Leetcode/Interview$ classic$ 150$ questions/range/summary_ranges.cpp || cmake_object_order_depends_target_summary_ranges
+  DEP_FILE = CMakeFiles\summary_ranges.dir\Interview_classic_150_questions\range\summary_ranges.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\summary_ranges.dir
+  OBJECT_FILE_DIR = CMakeFiles\summary_ranges.dir\Interview_classic_150_questions\range
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target summary_ranges
+
+
+#############################################
+# Link the executable summary_ranges.exe
+
+build summary_ranges.exe: CXX_EXECUTABLE_LINKER__summary_ranges_Debug CMakeFiles/summary_ranges.dir/Interview_classic_150_questions/range/summary_ranges.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\summary_ranges.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = summary_ranges.exe
+  TARGET_IMPLIB = libsummary_ranges.dll.a
+  TARGET_PDB = summary_ranges.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target merge_intervals
+
+
+#############################################
+# Order-only phony target for merge_intervals
+
+build cmake_object_order_depends_target_merge_intervals: phony || CMakeFiles/merge_intervals.dir
+
+build CMakeFiles/merge_intervals.dir/Interview_classic_150_questions/range/merge_intervals.cpp.obj: CXX_COMPILER__merge_intervals_unscanned_Debug E$:/Project/CProject/Leetcode/Interview$ classic$ 150$ questions/range/merge_intervals.cpp || cmake_object_order_depends_target_merge_intervals
+  DEP_FILE = CMakeFiles\merge_intervals.dir\Interview_classic_150_questions\range\merge_intervals.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\merge_intervals.dir
+  OBJECT_FILE_DIR = CMakeFiles\merge_intervals.dir\Interview_classic_150_questions\range
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target merge_intervals
+
+
+#############################################
+# Link the executable merge_intervals.exe
+
+build merge_intervals.exe: CXX_EXECUTABLE_LINKER__merge_intervals_Debug CMakeFiles/merge_intervals.dir/Interview_classic_150_questions/range/merge_intervals.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\merge_intervals.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = merge_intervals.exe
+  TARGET_IMPLIB = libmerge_intervals.dll.a
+  TARGET_PDB = merge_intervals.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target insert_interval
+
+
+#############################################
+# Order-only phony target for insert_interval
+
+build cmake_object_order_depends_target_insert_interval: phony || CMakeFiles/insert_interval.dir
+
+build CMakeFiles/insert_interval.dir/Interview_classic_150_questions/range/insert_interval.cpp.obj: CXX_COMPILER__insert_interval_unscanned_Debug E$:/Project/CProject/Leetcode/Interview$ classic$ 150$ questions/range/insert_interval.cpp || cmake_object_order_depends_target_insert_interval
+  DEP_FILE = CMakeFiles\insert_interval.dir\Interview_classic_150_questions\range\insert_interval.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\insert_interval.dir
+  OBJECT_FILE_DIR = CMakeFiles\insert_interval.dir\Interview_classic_150_questions\range
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target insert_interval
+
+
+#############################################
+# Link the executable insert_interval.exe
+
+build insert_interval.exe: CXX_EXECUTABLE_LINKER__insert_interval_Debug CMakeFiles/insert_interval.dir/Interview_classic_150_questions/range/insert_interval.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\insert_interval.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = insert_interval.exe
+  TARGET_IMPLIB = libinsert_interval.dll.a
+  TARGET_PDB = insert_interval.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1416,6 +1548,8 @@ build happy_number: phony happy_number.exe
 
 build insert_delete_getRandom_O1: phony insert_delete_getRandom_O1.exe
 
+build insert_interval: phony insert_interval.exe
+
 build integer_to_roman: phony integer_to_roman.exe
 
 build is_subsequence: phony is_subsequence.exe
@@ -1430,9 +1564,13 @@ build length_of_last_word: phony length_of_last_word.exe
 
 build longest_common_prefix: phony longest_common_prefix.exe
 
+build longest_consecutive_sequence: phony longest_consecutive_sequence.exe
+
 build longest_substring_without_repeating_characters: phony longest_substring_without_repeating_characters.exe
 
 build majority_element: phony majority_element.exe
+
+build merge_intervals: phony merge_intervals.exe
 
 build merge_sorted_array: phony merge_sorted_array.exe
 
@@ -1454,6 +1592,8 @@ build roman_to_integer: phony roman_to_integer.exe
 
 build rotate_array: phony rotate_array.exe
 
+build summary_ranges: phony summary_ranges.exe
+
 build trapping_rain_water: phony trapping_rain_water.exe
 
 build two_sum: phony two_sum.exe
@@ -1474,7 +1614,7 @@ build word_pattern: phony word_pattern.exe
 #############################################
 # Folder: E:/Project/CProject/Leetcode/cmake-build-debug
 
-build all: phony Leetcode.exe two_sum.exe add_two_numbers.exe merge_sorted_array.exe remove_element.exe remove_duplicates_from_sorted_array.exe remove_duplicates_from_sorted_arrayII.exe majority_element.exe rotate_array.exe best_time_to_bay_and_sell_stock.exe best_time_to_bay_and_sell_stock_II.exe jump_game.exe jump_game_II.exe H-index.exe insert_delete_getRandom_O1.exe product_of_array_except_self.exe gas_station.exe candy.exe trapping_rain_water.exe roman_to_integer.exe integer_to_roman.exe length_of_last_word.exe longest_common_prefix.exe reverse_words_in_a_string.exe Zigzag_conversion.exe find_the_index_of_the_first_occurrence_in_a_string.exe valid_palindrome.exe is_subsequence.exe two_sum_II_input_array_is_sorted.exe container_with_most_water.exe 3sum.exe minimum_size_subarray_sum.exe longest_substring_without_repeating_characters.exe ransom_note.exe isomorphic_strings.exe word_pattern.exe valid_anagram.exe group_anagram.exe happy_number.exe contains_duplicate_II.exe
+build all: phony Leetcode.exe two_sum.exe add_two_numbers.exe merge_sorted_array.exe remove_element.exe remove_duplicates_from_sorted_array.exe remove_duplicates_from_sorted_arrayII.exe majority_element.exe rotate_array.exe best_time_to_bay_and_sell_stock.exe best_time_to_bay_and_sell_stock_II.exe jump_game.exe jump_game_II.exe H-index.exe insert_delete_getRandom_O1.exe product_of_array_except_self.exe gas_station.exe candy.exe trapping_rain_water.exe roman_to_integer.exe integer_to_roman.exe length_of_last_word.exe longest_common_prefix.exe reverse_words_in_a_string.exe Zigzag_conversion.exe find_the_index_of_the_first_occurrence_in_a_string.exe valid_palindrome.exe is_subsequence.exe two_sum_II_input_array_is_sorted.exe container_with_most_water.exe 3sum.exe minimum_size_subarray_sum.exe longest_substring_without_repeating_characters.exe ransom_note.exe isomorphic_strings.exe word_pattern.exe valid_anagram.exe group_anagram.exe happy_number.exe contains_duplicate_II.exe longest_consecutive_sequence.exe summary_ranges.exe merge_intervals.exe insert_interval.exe
 
 # =============================================================================
 # Built-in targets

@@ -44,3 +44,7 @@ add_executable(valid_anagram "Interview classic 150 questions/Hash table/valid_a
 add_executable(group_anagram "Interview classic 150 questions/Hash table/group_anagrams.cpp")
 add_executable(happy_number "Interview classic 150 questions/Hash table/happy_number.cpp")
 add_executable(contains_duplicate_II "Interview classic 150 questions/Hash table/contains_duplicate_II.cpp")
+add_executable(longest_consecutive_sequence "Interview classic 150 questions/Hash table/longest_consecutive_sequence.cpp")
+add_executable(summary_ranges "Interview classic 150 questions/range/summary_ranges.cpp")
+add_executable(merge_intervals "Interview classic 150 questions/range/merge_intervals.cpp")
+add_executable(insert_interval "Interview classic 150 questions/range/insert_interval.cpp")
