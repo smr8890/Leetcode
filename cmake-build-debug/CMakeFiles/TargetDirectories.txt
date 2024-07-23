@@ -42,5 +42,8 @@ E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/longest_consecutive_se
 E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/summary_ranges.dir
 E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/merge_intervals.dir
 E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/insert_interval.dir
+E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/minimum_number_of_arrows_to_burst_balloons.dir
+E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/valid_parentheses.dir
+E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/simplify_path.dir
 E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/rebuild_cache.dir

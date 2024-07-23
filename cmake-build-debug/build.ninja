@@ -1492,6 +1492,105 @@ build insert_interval.exe: CXX_EXECUTABLE_LINKER__insert_interval_Debug CMakeFil
   TARGET_IMPLIB = libinsert_interval.dll.a
   TARGET_PDB = insert_interval.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target minimum_number_of_arrows_to_burst_balloons
+
+
+#############################################
+# Order-only phony target for minimum_number_of_arrows_to_burst_balloons
+
+build cmake_object_order_depends_target_minimum_number_of_arrows_to_burst_balloons: phony || CMakeFiles/minimum_number_of_arrows_to_burst_balloons.dir
+
+build CMakeFiles/minimum_number_of_arrows_to_burst_balloons.dir/Interview_classic_150_questions/range/minimum_number_of_arrows_to_burst_balloons.cpp.obj: CXX_COMPILER__minimum_number_of_arrows_to_burst_balloons_unscanned_Debug E$:/Project/CProject/Leetcode/Interview$ classic$ 150$ questions/range/minimum_number_of_arrows_to_burst_balloons.cpp || cmake_object_order_depends_target_minimum_number_of_arrows_to_burst_balloons
+  DEP_FILE = CMakeFiles\minimum_number_of_arrows_to_burst_balloons.dir\Interview_classic_150_questions\range\minimum_number_of_arrows_to_burst_balloons.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\minimum_number_of_arrows_to_burst_balloons.dir
+  OBJECT_FILE_DIR = CMakeFiles\minimum_number_of_arrows_to_burst_balloons.dir\Interview_classic_150_questions\range
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target minimum_number_of_arrows_to_burst_balloons
+
+
+#############################################
+# Link the executable minimum_number_of_arrows_to_burst_balloons.exe
+
+build minimum_number_of_arrows_to_burst_balloons.exe: CXX_EXECUTABLE_LINKER__minimum_number_of_arrows_to_burst_balloons_Debug CMakeFiles/minimum_number_of_arrows_to_burst_balloons.dir/Interview_classic_150_questions/range/minimum_number_of_arrows_to_burst_balloons.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\minimum_number_of_arrows_to_burst_balloons.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = minimum_number_of_arrows_to_burst_balloons.exe
+  TARGET_IMPLIB = libminimum_number_of_arrows_to_burst_balloons.dll.a
+  TARGET_PDB = minimum_number_of_arrows_to_burst_balloons.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target valid_parentheses
+
+
+#############################################
+# Order-only phony target for valid_parentheses
+
+build cmake_object_order_depends_target_valid_parentheses: phony || CMakeFiles/valid_parentheses.dir
+
+build CMakeFiles/valid_parentheses.dir/Interview_classic_150_questions/stack/valid_parentheses.cpp.obj: CXX_COMPILER__valid_parentheses_unscanned_Debug E$:/Project/CProject/Leetcode/Interview$ classic$ 150$ questions/stack/valid_parentheses.cpp || cmake_object_order_depends_target_valid_parentheses
+  DEP_FILE = CMakeFiles\valid_parentheses.dir\Interview_classic_150_questions\stack\valid_parentheses.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\valid_parentheses.dir
+  OBJECT_FILE_DIR = CMakeFiles\valid_parentheses.dir\Interview_classic_150_questions\stack
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target valid_parentheses
+
+
+#############################################
+# Link the executable valid_parentheses.exe
+
+build valid_parentheses.exe: CXX_EXECUTABLE_LINKER__valid_parentheses_Debug CMakeFiles/valid_parentheses.dir/Interview_classic_150_questions/stack/valid_parentheses.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\valid_parentheses.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = valid_parentheses.exe
+  TARGET_IMPLIB = libvalid_parentheses.dll.a
+  TARGET_PDB = valid_parentheses.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target simplify_path
+
+
+#############################################
+# Order-only phony target for simplify_path
+
+build cmake_object_order_depends_target_simplify_path: phony || CMakeFiles/simplify_path.dir
+
+build CMakeFiles/simplify_path.dir/Interview_classic_150_questions/stack/simplify_path.cpp.obj: CXX_COMPILER__simplify_path_unscanned_Debug E$:/Project/CProject/Leetcode/Interview$ classic$ 150$ questions/stack/simplify_path.cpp || cmake_object_order_depends_target_simplify_path
+  DEP_FILE = CMakeFiles\simplify_path.dir\Interview_classic_150_questions\stack\simplify_path.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\simplify_path.dir
+  OBJECT_FILE_DIR = CMakeFiles\simplify_path.dir\Interview_classic_150_questions\stack
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target simplify_path
+
+
+#############################################
+# Link the executable simplify_path.exe
+
+build simplify_path.exe: CXX_EXECUTABLE_LINKER__simplify_path_Debug CMakeFiles/simplify_path.dir/Interview_classic_150_questions/stack/simplify_path.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\simplify_path.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = simplify_path.exe
+  TARGET_IMPLIB = libsimplify_path.dll.a
+  TARGET_PDB = simplify_path.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1574,6 +1673,8 @@ build merge_intervals: phony merge_intervals.exe
 
 build merge_sorted_array: phony merge_sorted_array.exe
 
+build minimum_number_of_arrows_to_burst_balloons: phony minimum_number_of_arrows_to_burst_balloons.exe
+
 build minimum_size_subarray_sum: phony minimum_size_subarray_sum.exe
 
 build product_of_array_except_self: phony product_of_array_except_self.exe
@@ -1592,6 +1693,8 @@ build roman_to_integer: phony roman_to_integer.exe
 
 build rotate_array: phony rotate_array.exe
 
+build simplify_path: phony simplify_path.exe
+
 build summary_ranges: phony summary_ranges.exe
 
 build trapping_rain_water: phony trapping_rain_water.exe
@@ -1604,6 +1707,8 @@ build valid_anagram: phony valid_anagram.exe
 
 build valid_palindrome: phony valid_palindrome.exe
 
+build valid_parentheses: phony valid_parentheses.exe
+
 build word_pattern: phony word_pattern.exe
 
 # =============================================================================
@@ -1614,7 +1719,7 @@ build word_pattern: phony word_pattern.exe
 #############################################
 # Folder: E:/Project/CProject/Leetcode/cmake-build-debug
 
-build all: phony Leetcode.exe two_sum.exe add_two_numbers.exe merge_sorted_array.exe remove_element.exe remove_duplicates_from_sorted_array.exe remove_duplicates_from_sorted_arrayII.exe majority_element.exe rotate_array.exe best_time_to_bay_and_sell_stock.exe best_time_to_bay_and_sell_stock_II.exe jump_game.exe jump_game_II.exe H-index.exe insert_delete_getRandom_O1.exe product_of_array_except_self.exe gas_station.exe candy.exe trapping_rain_water.exe roman_to_integer.exe integer_to_roman.exe length_of_last_word.exe longest_common_prefix.exe reverse_words_in_a_string.exe Zigzag_conversion.exe find_the_index_of_the_first_occurrence_in_a_string.exe valid_palindrome.exe is_subsequence.exe two_sum_II_input_array_is_sorted.exe container_with_most_water.exe 3sum.exe minimum_size_subarray_sum.exe longest_substring_without_repeating_characters.exe ransom_note.exe isomorphic_strings.exe word_pattern.exe valid_anagram.exe group_anagram.exe happy_number.exe contains_duplicate_II.exe longest_consecutive_sequence.exe summary_ranges.exe merge_intervals.exe insert_interval.exe
+build all: phony Leetcode.exe two_sum.exe add_two_numbers.exe merge_sorted_array.exe remove_element.exe remove_duplicates_from_sorted_array.exe remove_duplicates_from_sorted_arrayII.exe majority_element.exe rotate_array.exe best_time_to_bay_and_sell_stock.exe best_time_to_bay_and_sell_stock_II.exe jump_game.exe jump_game_II.exe H-index.exe insert_delete_getRandom_O1.exe product_of_array_except_self.exe gas_station.exe candy.exe trapping_rain_water.exe roman_to_integer.exe integer_to_roman.exe length_of_last_word.exe longest_common_prefix.exe reverse_words_in_a_string.exe Zigzag_conversion.exe find_the_index_of_the_first_occurrence_in_a_string.exe valid_palindrome.exe is_subsequence.exe two_sum_II_input_array_is_sorted.exe container_with_most_water.exe 3sum.exe minimum_size_subarray_sum.exe longest_substring_without_repeating_characters.exe ransom_note.exe isomorphic_strings.exe word_pattern.exe valid_anagram.exe group_anagram.exe happy_number.exe contains_duplicate_II.exe longest_consecutive_sequence.exe summary_ranges.exe merge_intervals.exe insert_interval.exe minimum_number_of_arrows_to_burst_balloons.exe valid_parentheses.exe simplify_path.exe
 
 # =============================================================================
 # Built-in targets

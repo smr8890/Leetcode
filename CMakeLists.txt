@@ -48,3 +48,6 @@ add_executable(longest_consecutive_sequence "Interview classic 150 questions/Has
 add_executable(summary_ranges "Interview classic 150 questions/range/summary_ranges.cpp")
 add_executable(merge_intervals "Interview classic 150 questions/range/merge_intervals.cpp")
 add_executable(insert_interval "Interview classic 150 questions/range/insert_interval.cpp")
+add_executable(minimum_number_of_arrows_to_burst_balloons "Interview classic 150 questions/range/minimum_number_of_arrows_to_burst_balloons.cpp")
+add_executable(valid_parentheses "Interview classic 150 questions/stack/valid_parentheses.cpp")
+add_executable(simplify_path "Interview classic 150 questions/stack/simplify_path.cpp")
