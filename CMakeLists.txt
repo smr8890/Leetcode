@@ -51,3 +51,5 @@ add_executable(insert_interval "Interview classic 150 questions/range/insert_int
 add_executable(minimum_number_of_arrows_to_burst_balloons "Interview classic 150 questions/range/minimum_number_of_arrows_to_burst_balloons.cpp")
 add_executable(valid_parentheses "Interview classic 150 questions/stack/valid_parentheses.cpp")
 add_executable(simplify_path "Interview classic 150 questions/stack/simplify_path.cpp")
+add_executable(min_stack "Interview classic 150 questions/stack/min_stack.cpp")
+add_executable(Evaluate_Reverse_Polish_Notation "Interview classic 150 questions/stack/Evaluate_Reverse_Polish_Notation.cpp")
