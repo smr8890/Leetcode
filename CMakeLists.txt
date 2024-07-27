@@ -53,3 +53,6 @@ add_executable(valid_parentheses "Interview classic 150 questions/stack/valid_pa
 add_executable(simplify_path "Interview classic 150 questions/stack/simplify_path.cpp")
 add_executable(min_stack "Interview classic 150 questions/stack/min_stack.cpp")
 add_executable(Evaluate_Reverse_Polish_Notation "Interview classic 150 questions/stack/Evaluate_Reverse_Polish_Notation.cpp")
+add_executable(basic_calculator "Interview classic 150 questions/stack/basic_calculator.cpp")
+add_executable(linked_list_cycle "Interview classic 150 questions/Linked list/linked_list_cycle.cpp")
+add_executable(Merge_Two_Sorted_Lists "Interview classic 150 questions/Linked list/Merge_Two_Sorted_Lists.cpp")

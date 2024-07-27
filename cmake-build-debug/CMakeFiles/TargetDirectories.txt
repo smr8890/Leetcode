@@ -47,5 +47,8 @@ E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/valid_parentheses.dir
 E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/simplify_path.dir
 E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/min_stack.dir
 E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/Evaluate_Reverse_Polish_Notation.dir
+E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/basic_calculator.dir
+E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/linked_list_cycle.dir
+E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/Merge_Two_Sorted_Lists.dir
 E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1657,6 +1657,105 @@ build Evaluate_Reverse_Polish_Notation.exe: CXX_EXECUTABLE_LINKER__Evaluate_Reve
   TARGET_IMPLIB = libEvaluate_Reverse_Polish_Notation.dll.a
   TARGET_PDB = Evaluate_Reverse_Polish_Notation.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target basic_calculator
+
+
+#############################################
+# Order-only phony target for basic_calculator
+
+build cmake_object_order_depends_target_basic_calculator: phony || CMakeFiles/basic_calculator.dir
+
+build CMakeFiles/basic_calculator.dir/Interview_classic_150_questions/stack/basic_calculator.cpp.obj: CXX_COMPILER__basic_calculator_unscanned_Debug E$:/Project/CProject/Leetcode/Interview$ classic$ 150$ questions/stack/basic_calculator.cpp || cmake_object_order_depends_target_basic_calculator
+  DEP_FILE = CMakeFiles\basic_calculator.dir\Interview_classic_150_questions\stack\basic_calculator.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\basic_calculator.dir
+  OBJECT_FILE_DIR = CMakeFiles\basic_calculator.dir\Interview_classic_150_questions\stack
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target basic_calculator
+
+
+#############################################
+# Link the executable basic_calculator.exe
+
+build basic_calculator.exe: CXX_EXECUTABLE_LINKER__basic_calculator_Debug CMakeFiles/basic_calculator.dir/Interview_classic_150_questions/stack/basic_calculator.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\basic_calculator.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = basic_calculator.exe
+  TARGET_IMPLIB = libbasic_calculator.dll.a
+  TARGET_PDB = basic_calculator.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target linked_list_cycle
+
+
+#############################################
+# Order-only phony target for linked_list_cycle
+
+build cmake_object_order_depends_target_linked_list_cycle: phony || CMakeFiles/linked_list_cycle.dir
+
+build CMakeFiles/linked_list_cycle.dir/Interview_classic_150_questions/Linked_list/linked_list_cycle.cpp.obj: CXX_COMPILER__linked_list_cycle_unscanned_Debug E$:/Project/CProject/Leetcode/Interview$ classic$ 150$ questions/Linked$ list/linked_list_cycle.cpp || cmake_object_order_depends_target_linked_list_cycle
+  DEP_FILE = CMakeFiles\linked_list_cycle.dir\Interview_classic_150_questions\Linked_list\linked_list_cycle.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\linked_list_cycle.dir
+  OBJECT_FILE_DIR = CMakeFiles\linked_list_cycle.dir\Interview_classic_150_questions\Linked_list
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target linked_list_cycle
+
+
+#############################################
+# Link the executable linked_list_cycle.exe
+
+build linked_list_cycle.exe: CXX_EXECUTABLE_LINKER__linked_list_cycle_Debug CMakeFiles/linked_list_cycle.dir/Interview_classic_150_questions/Linked_list/linked_list_cycle.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\linked_list_cycle.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = linked_list_cycle.exe
+  TARGET_IMPLIB = liblinked_list_cycle.dll.a
+  TARGET_PDB = linked_list_cycle.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Merge_Two_Sorted_Lists
+
+
+#############################################
+# Order-only phony target for Merge_Two_Sorted_Lists
+
+build cmake_object_order_depends_target_Merge_Two_Sorted_Lists: phony || CMakeFiles/Merge_Two_Sorted_Lists.dir
+
+build CMakeFiles/Merge_Two_Sorted_Lists.dir/Interview_classic_150_questions/Linked_list/Merge_Two_Sorted_Lists.cpp.obj: CXX_COMPILER__Merge_Two_Sorted_Lists_unscanned_Debug E$:/Project/CProject/Leetcode/Interview$ classic$ 150$ questions/Linked$ list/Merge_Two_Sorted_Lists.cpp || cmake_object_order_depends_target_Merge_Two_Sorted_Lists
+  DEP_FILE = CMakeFiles\Merge_Two_Sorted_Lists.dir\Interview_classic_150_questions\Linked_list\Merge_Two_Sorted_Lists.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Merge_Two_Sorted_Lists.dir
+  OBJECT_FILE_DIR = CMakeFiles\Merge_Two_Sorted_Lists.dir\Interview_classic_150_questions\Linked_list
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Merge_Two_Sorted_Lists
+
+
+#############################################
+# Link the executable Merge_Two_Sorted_Lists.exe
+
+build Merge_Two_Sorted_Lists.exe: CXX_EXECUTABLE_LINKER__Merge_Two_Sorted_Lists_Debug CMakeFiles/Merge_Two_Sorted_Lists.dir/Interview_classic_150_questions/Linked_list/Merge_Two_Sorted_Lists.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Merge_Two_Sorted_Lists.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Merge_Two_Sorted_Lists.exe
+  TARGET_IMPLIB = libMerge_Two_Sorted_Lists.dll.a
+  TARGET_PDB = Merge_Two_Sorted_Lists.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1691,9 +1790,13 @@ build H-index: phony H-index.exe
 
 build Leetcode: phony Leetcode.exe
 
+build Merge_Two_Sorted_Lists: phony Merge_Two_Sorted_Lists.exe
+
 build Zigzag_conversion: phony Zigzag_conversion.exe
 
 build add_two_numbers: phony add_two_numbers.exe
+
+build basic_calculator: phony basic_calculator.exe
 
 build best_time_to_bay_and_sell_stock: phony best_time_to_bay_and_sell_stock.exe
 
@@ -1728,6 +1831,8 @@ build jump_game: phony jump_game.exe
 build jump_game_II: phony jump_game_II.exe
 
 build length_of_last_word: phony length_of_last_word.exe
+
+build linked_list_cycle: phony linked_list_cycle.exe
 
 build longest_common_prefix: phony longest_common_prefix.exe
 
@@ -1789,7 +1894,7 @@ build word_pattern: phony word_pattern.exe
 #############################################
 # Folder: E:/Project/CProject/Leetcode/cmake-build-debug
 
-build all: phony Leetcode.exe two_sum.exe add_two_numbers.exe merge_sorted_array.exe remove_element.exe remove_duplicates_from_sorted_array.exe remove_duplicates_from_sorted_arrayII.exe majority_element.exe rotate_array.exe best_time_to_bay_and_sell_stock.exe best_time_to_bay_and_sell_stock_II.exe jump_game.exe jump_game_II.exe H-index.exe insert_delete_getRandom_O1.exe product_of_array_except_self.exe gas_station.exe candy.exe trapping_rain_water.exe roman_to_integer.exe integer_to_roman.exe length_of_last_word.exe longest_common_prefix.exe reverse_words_in_a_string.exe Zigzag_conversion.exe find_the_index_of_the_first_occurrence_in_a_string.exe valid_palindrome.exe is_subsequence.exe two_sum_II_input_array_is_sorted.exe container_with_most_water.exe 3sum.exe minimum_size_subarray_sum.exe longest_substring_without_repeating_characters.exe ransom_note.exe isomorphic_strings.exe word_pattern.exe valid_anagram.exe group_anagram.exe happy_number.exe contains_duplicate_II.exe longest_consecutive_sequence.exe summary_ranges.exe merge_intervals.exe insert_interval.exe minimum_number_of_arrows_to_burst_balloons.exe valid_parentheses.exe simplify_path.exe min_stack.exe Evaluate_Reverse_Polish_Notation.exe
+build all: phony Leetcode.exe two_sum.exe add_two_numbers.exe merge_sorted_array.exe remove_element.exe remove_duplicates_from_sorted_array.exe remove_duplicates_from_sorted_arrayII.exe majority_element.exe rotate_array.exe best_time_to_bay_and_sell_stock.exe best_time_to_bay_and_sell_stock_II.exe jump_game.exe jump_game_II.exe H-index.exe insert_delete_getRandom_O1.exe product_of_array_except_self.exe gas_station.exe candy.exe trapping_rain_water.exe roman_to_integer.exe integer_to_roman.exe length_of_last_word.exe longest_common_prefix.exe reverse_words_in_a_string.exe Zigzag_conversion.exe find_the_index_of_the_first_occurrence_in_a_string.exe valid_palindrome.exe is_subsequence.exe two_sum_II_input_array_is_sorted.exe container_with_most_water.exe 3sum.exe minimum_size_subarray_sum.exe longest_substring_without_repeating_characters.exe ransom_note.exe isomorphic_strings.exe word_pattern.exe valid_anagram.exe group_anagram.exe happy_number.exe contains_duplicate_II.exe longest_consecutive_sequence.exe summary_ranges.exe merge_intervals.exe insert_interval.exe minimum_number_of_arrows_to_burst_balloons.exe valid_parentheses.exe simplify_path.exe min_stack.exe Evaluate_Reverse_Polish_Notation.exe basic_calculator.exe linked_list_cycle.exe Merge_Two_Sorted_Lists.exe
 
 # =============================================================================
 # Built-in targets
