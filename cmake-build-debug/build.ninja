@@ -1756,6 +1756,105 @@ build Merge_Two_Sorted_Lists.exe: CXX_EXECUTABLE_LINKER__Merge_Two_Sorted_Lists_
   TARGET_IMPLIB = libMerge_Two_Sorted_Lists.dll.a
   TARGET_PDB = Merge_Two_Sorted_Lists.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Copy_List_with_Random_Pointer
+
+
+#############################################
+# Order-only phony target for Copy_List_with_Random_Pointer
+
+build cmake_object_order_depends_target_Copy_List_with_Random_Pointer: phony || CMakeFiles/Copy_List_with_Random_Pointer.dir
+
+build CMakeFiles/Copy_List_with_Random_Pointer.dir/Interview_classic_150_questions/Linked_list/Copy_List_with_Random_Pointer.cpp.obj: CXX_COMPILER__Copy_List_with_Random_Pointer_unscanned_Debug E$:/Project/CProject/Leetcode/Interview$ classic$ 150$ questions/Linked$ list/Copy_List_with_Random_Pointer.cpp || cmake_object_order_depends_target_Copy_List_with_Random_Pointer
+  DEP_FILE = CMakeFiles\Copy_List_with_Random_Pointer.dir\Interview_classic_150_questions\Linked_list\Copy_List_with_Random_Pointer.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Copy_List_with_Random_Pointer.dir
+  OBJECT_FILE_DIR = CMakeFiles\Copy_List_with_Random_Pointer.dir\Interview_classic_150_questions\Linked_list
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Copy_List_with_Random_Pointer
+
+
+#############################################
+# Link the executable Copy_List_with_Random_Pointer.exe
+
+build Copy_List_with_Random_Pointer.exe: CXX_EXECUTABLE_LINKER__Copy_List_with_Random_Pointer_Debug CMakeFiles/Copy_List_with_Random_Pointer.dir/Interview_classic_150_questions/Linked_list/Copy_List_with_Random_Pointer.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Copy_List_with_Random_Pointer.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Copy_List_with_Random_Pointer.exe
+  TARGET_IMPLIB = libCopy_List_with_Random_Pointer.dll.a
+  TARGET_PDB = Copy_List_with_Random_Pointer.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Reverse_Linked_List_II
+
+
+#############################################
+# Order-only phony target for Reverse_Linked_List_II
+
+build cmake_object_order_depends_target_Reverse_Linked_List_II: phony || CMakeFiles/Reverse_Linked_List_II.dir
+
+build CMakeFiles/Reverse_Linked_List_II.dir/Interview_classic_150_questions/Linked_list/Reverse_Linked_List_II.cpp.obj: CXX_COMPILER__Reverse_Linked_List_II_unscanned_Debug E$:/Project/CProject/Leetcode/Interview$ classic$ 150$ questions/Linked$ list/Reverse_Linked_List_II.cpp || cmake_object_order_depends_target_Reverse_Linked_List_II
+  DEP_FILE = CMakeFiles\Reverse_Linked_List_II.dir\Interview_classic_150_questions\Linked_list\Reverse_Linked_List_II.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Reverse_Linked_List_II.dir
+  OBJECT_FILE_DIR = CMakeFiles\Reverse_Linked_List_II.dir\Interview_classic_150_questions\Linked_list
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Reverse_Linked_List_II
+
+
+#############################################
+# Link the executable Reverse_Linked_List_II.exe
+
+build Reverse_Linked_List_II.exe: CXX_EXECUTABLE_LINKER__Reverse_Linked_List_II_Debug CMakeFiles/Reverse_Linked_List_II.dir/Interview_classic_150_questions/Linked_list/Reverse_Linked_List_II.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Reverse_Linked_List_II.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Reverse_Linked_List_II.exe
+  TARGET_IMPLIB = libReverse_Linked_List_II.dll.a
+  TARGET_PDB = Reverse_Linked_List_II.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Remove_Nth_Node_From_End_of_List
+
+
+#############################################
+# Order-only phony target for Remove_Nth_Node_From_End_of_List
+
+build cmake_object_order_depends_target_Remove_Nth_Node_From_End_of_List: phony || CMakeFiles/Remove_Nth_Node_From_End_of_List.dir
+
+build CMakeFiles/Remove_Nth_Node_From_End_of_List.dir/Interview_classic_150_questions/Linked_list/Remove_Nth_Node_From_End_of_List.cpp.obj: CXX_COMPILER__Remove_Nth_Node_From_End_of_List_unscanned_Debug E$:/Project/CProject/Leetcode/Interview$ classic$ 150$ questions/Linked$ list/Remove_Nth_Node_From_End_of_List.cpp || cmake_object_order_depends_target_Remove_Nth_Node_From_End_of_List
+  DEP_FILE = CMakeFiles\Remove_Nth_Node_From_End_of_List.dir\Interview_classic_150_questions\Linked_list\Remove_Nth_Node_From_End_of_List.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Remove_Nth_Node_From_End_of_List.dir
+  OBJECT_FILE_DIR = CMakeFiles\Remove_Nth_Node_From_End_of_List.dir\Interview_classic_150_questions\Linked_list
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Remove_Nth_Node_From_End_of_List
+
+
+#############################################
+# Link the executable Remove_Nth_Node_From_End_of_List.exe
+
+build Remove_Nth_Node_From_End_of_List.exe: CXX_EXECUTABLE_LINKER__Remove_Nth_Node_From_End_of_List_Debug CMakeFiles/Remove_Nth_Node_From_End_of_List.dir/Interview_classic_150_questions/Linked_list/Remove_Nth_Node_From_End_of_List.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Remove_Nth_Node_From_End_of_List.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Remove_Nth_Node_From_End_of_List.exe
+  TARGET_IMPLIB = libRemove_Nth_Node_From_End_of_List.dll.a
+  TARGET_PDB = Remove_Nth_Node_From_End_of_List.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1784,6 +1883,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build 3sum: phony 3sum.exe
 
+build Copy_List_with_Random_Pointer: phony Copy_List_with_Random_Pointer.exe
+
 build Evaluate_Reverse_Polish_Notation: phony Evaluate_Reverse_Polish_Notation.exe
 
 build H-index: phony H-index.exe
@@ -1791,6 +1892,10 @@ build H-index: phony H-index.exe
 build Leetcode: phony Leetcode.exe
 
 build Merge_Two_Sorted_Lists: phony Merge_Two_Sorted_Lists.exe
+
+build Remove_Nth_Node_From_End_of_List: phony Remove_Nth_Node_From_End_of_List.exe
+
+build Reverse_Linked_List_II: phony Reverse_Linked_List_II.exe
 
 build Zigzag_conversion: phony Zigzag_conversion.exe
 
@@ -1894,7 +1999,7 @@ build word_pattern: phony word_pattern.exe
 #############################################
 # Folder: E:/Project/CProject/Leetcode/cmake-build-debug
 
-build all: phony Leetcode.exe two_sum.exe add_two_numbers.exe merge_sorted_array.exe remove_element.exe remove_duplicates_from_sorted_array.exe remove_duplicates_from_sorted_arrayII.exe majority_element.exe rotate_array.exe best_time_to_bay_and_sell_stock.exe best_time_to_bay_and_sell_stock_II.exe jump_game.exe jump_game_II.exe H-index.exe insert_delete_getRandom_O1.exe product_of_array_except_self.exe gas_station.exe candy.exe trapping_rain_water.exe roman_to_integer.exe integer_to_roman.exe length_of_last_word.exe longest_common_prefix.exe reverse_words_in_a_string.exe Zigzag_conversion.exe find_the_index_of_the_first_occurrence_in_a_string.exe valid_palindrome.exe is_subsequence.exe two_sum_II_input_array_is_sorted.exe container_with_most_water.exe 3sum.exe minimum_size_subarray_sum.exe longest_substring_without_repeating_characters.exe ransom_note.exe isomorphic_strings.exe word_pattern.exe valid_anagram.exe group_anagram.exe happy_number.exe contains_duplicate_II.exe longest_consecutive_sequence.exe summary_ranges.exe merge_intervals.exe insert_interval.exe minimum_number_of_arrows_to_burst_balloons.exe valid_parentheses.exe simplify_path.exe min_stack.exe Evaluate_Reverse_Polish_Notation.exe basic_calculator.exe linked_list_cycle.exe Merge_Two_Sorted_Lists.exe
+build all: phony Leetcode.exe two_sum.exe add_two_numbers.exe merge_sorted_array.exe remove_element.exe remove_duplicates_from_sorted_array.exe remove_duplicates_from_sorted_arrayII.exe majority_element.exe rotate_array.exe best_time_to_bay_and_sell_stock.exe best_time_to_bay_and_sell_stock_II.exe jump_game.exe jump_game_II.exe H-index.exe insert_delete_getRandom_O1.exe product_of_array_except_self.exe gas_station.exe candy.exe trapping_rain_water.exe roman_to_integer.exe integer_to_roman.exe length_of_last_word.exe longest_common_prefix.exe reverse_words_in_a_string.exe Zigzag_conversion.exe find_the_index_of_the_first_occurrence_in_a_string.exe valid_palindrome.exe is_subsequence.exe two_sum_II_input_array_is_sorted.exe container_with_most_water.exe 3sum.exe minimum_size_subarray_sum.exe longest_substring_without_repeating_characters.exe ransom_note.exe isomorphic_strings.exe word_pattern.exe valid_anagram.exe group_anagram.exe happy_number.exe contains_duplicate_II.exe longest_consecutive_sequence.exe summary_ranges.exe merge_intervals.exe insert_interval.exe minimum_number_of_arrows_to_burst_balloons.exe valid_parentheses.exe simplify_path.exe min_stack.exe Evaluate_Reverse_Polish_Notation.exe basic_calculator.exe linked_list_cycle.exe Merge_Two_Sorted_Lists.exe Copy_List_with_Random_Pointer.exe Reverse_Linked_List_II.exe Remove_Nth_Node_From_End_of_List.exe
 
 # =============================================================================
 # Built-in targets

@@ -56,3 +56,7 @@ add_executable(Evaluate_Reverse_Polish_Notation "Interview classic 150 questions
 add_executable(basic_calculator "Interview classic 150 questions/stack/basic_calculator.cpp")
 add_executable(linked_list_cycle "Interview classic 150 questions/Linked list/linked_list_cycle.cpp")
 add_executable(Merge_Two_Sorted_Lists "Interview classic 150 questions/Linked list/Merge_Two_Sorted_Lists.cpp")
+add_executable(Copy_List_with_Random_Pointer "Interview classic 150 questions/Linked list/Copy_List_with_Random_Pointer.cpp")
+add_executable(Reverse_Linked_List_II "Interview classic 150 questions/Linked list/Reverse_Linked_List_II.cpp")
+add_executable(Remove_Nth_Node_From_End_of_List "Interview classic 150 questions/Linked list/Remove_Nth_Node_From_End_of_List.cpp")
+add_executable(Remove_Duplicates_from_Sorted_List_II "Interview classic 150 questions/Linked list/Remove_Duplicates_from_Sorted_List_II.cpp")
