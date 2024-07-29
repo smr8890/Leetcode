@@ -60,3 +60,6 @@ add_executable(Copy_List_with_Random_Pointer "Interview classic 150 questions/Li
 add_executable(Reverse_Linked_List_II "Interview classic 150 questions/Linked list/Reverse_Linked_List_II.cpp")
 add_executable(Remove_Nth_Node_From_End_of_List "Interview classic 150 questions/Linked list/Remove_Nth_Node_From_End_of_List.cpp")
 add_executable(Remove_Duplicates_from_Sorted_List_II "Interview classic 150 questions/Linked list/Remove_Duplicates_from_Sorted_List_II.cpp")
+add_executable(rotate_list "Interview classic 150 questions/Linked list/rotate_list.cpp")
+add_executable(partition_list "Interview classic 150 questions/Linked list/partition_list.cpp")
+add_executable(LRU_cache "Interview classic 150 questions/Linked list/LRU_cache.cpp")
