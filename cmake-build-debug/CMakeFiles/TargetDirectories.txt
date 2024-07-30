@@ -57,5 +57,7 @@ E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/Remove_Duplicates_from
 E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/rotate_list.dir
 E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/partition_list.dir
 E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/LRU_cache.dir
+E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/Maximum_Depth_of_Binary_Tree.dir
+E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/same_tree.dir
 E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/Project/CProject/Leetcode/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -63,3 +63,5 @@ add_executable(Remove_Duplicates_from_Sorted_List_II "Interview classic 150 ques
 add_executable(rotate_list "Interview classic 150 questions/Linked list/rotate_list.cpp")
 add_executable(partition_list "Interview classic 150 questions/Linked list/partition_list.cpp")
 add_executable(LRU_cache "Interview classic 150 questions/Linked list/LRU_cache.cpp")
+add_executable(Maximum_Depth_of_Binary_Tree "Interview classic 150 questions/binary tree/Maximum_Depth_of_Binary_Tree.cpp")
+add_executable(same_tree "Interview classic 150 questions/binary tree/same_tree.cpp")
