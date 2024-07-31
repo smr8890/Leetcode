@@ -65,3 +65,6 @@ add_executable(partition_list "Interview classic 150 questions/Linked list/parti
 add_executable(LRU_cache "Interview classic 150 questions/Linked list/LRU_cache.cpp")
 add_executable(Maximum_Depth_of_Binary_Tree "Interview classic 150 questions/binary tree/Maximum_Depth_of_Binary_Tree.cpp")
 add_executable(same_tree "Interview classic 150 questions/binary tree/same_tree.cpp")
+add_executable(invert_binary_tree "Interview classic 150 questions/binary tree/invert_binary_tree.cpp")
+add_executable(Symmetric_Tree "Interview classic 150 questions/binary tree/Symmetric_Tree.cpp")
+add_executable(Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal "Interview classic 150 questions/binary tree/Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.cpp")
