@@ -68,3 +68,5 @@ add_executable(same_tree "Interview classic 150 questions/binary tree/same_tree.
 add_executable(invert_binary_tree "Interview classic 150 questions/binary tree/invert_binary_tree.cpp")
 add_executable(Symmetric_Tree "Interview classic 150 questions/binary tree/Symmetric_Tree.cpp")
 add_executable(Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal "Interview classic 150 questions/binary tree/Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.cpp")
+add_executable(Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal "Interview classic 150 questions/binary tree/Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal.cpp")
+add_executable(Populating_Next_Right_Pointers_in_Each_Node_II "Interview classic 150 questions/binary tree/Populating_Next_Right_Pointers_in_Each_Node_II.cpp")

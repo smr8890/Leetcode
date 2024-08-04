@@ -18,25 +18,24 @@ struct TreeNode {
 
 class Solution {
 public:
-    TreeNode *build(vector<int> &preorder, vector<int> &inorder, int &prei, int begin, int end) {
+    TreeNode *build(vector<int> &inorder, vector<int> &postorder, int &post_i, int begin, int end) {
         if (begin > end)
             return nullptr;
-        TreeNode *root = new TreeNode(preorder[prei]);
+        TreeNode *root = new TreeNode(postorder[post_i]);
         int rooti = begin;
         while (rooti <= end) {
-            if (inorder[rooti] == preorder[prei])
+            if (inorder[rooti] == postorder[post_i])
                 break;
             rooti++;
         }
-
-        prei++;
-        root->left = build(preorder, inorder, prei, begin, rooti - 1);
-        root->right = build(preorder, inorder, prei, rooti + 1, end);
+        post_i--;
+        root->right = build(inorder, postorder, post_i, rooti + 1, end);
+        root->left = build(inorder, postorder, post_i, begin, rooti - 1);
         return root;
     }
 
-    TreeNode *buildTree(vector<int> &preorder, vector<int> &inorder) {
-        int prei = 0;
-        return build(preorder, inorder, prei, 0, preorder.size() - 1);
+    TreeNode *buildTree(vector<int> &inorder, vector<int> &postorder) {
+        int post_i = postorder.size() - 1;
+        return build(inorder, postorder, post_i, 0, postorder.size() - 1);
     }
 };
