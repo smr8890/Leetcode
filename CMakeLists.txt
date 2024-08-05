@@ -70,3 +70,7 @@ add_executable(Symmetric_Tree "Interview classic 150 questions/binary tree/Symme
 add_executable(Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal "Interview classic 150 questions/binary tree/Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.cpp")
 add_executable(Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal "Interview classic 150 questions/binary tree/Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal.cpp")
 add_executable(Populating_Next_Right_Pointers_in_Each_Node_II "Interview classic 150 questions/binary tree/Populating_Next_Right_Pointers_in_Each_Node_II.cpp")
+add_executable(Flatten_Binary_Tree_to_Linked_List "Interview classic 150 questions/binary tree/Flatten_Binary_Tree_to_Linked_List.cpp")
+add_executable(path_sum "Interview classic 150 questions/binary tree/path_sum.cpp")
+add_executable(Sum_Root_to_Leaf_Numbers "Interview classic 150 questions/binary tree/Sum_Root_to_Leaf_Numbers.cpp")
+add_executable(Binary_Search_Tree_Iterator "Interview classic 150 questions/binary tree/Binary_Search_Tree_Iterator.cpp")
