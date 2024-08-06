@@ -74,3 +74,8 @@ add_executable(Flatten_Binary_Tree_to_Linked_List "Interview classic 150 questio
 add_executable(path_sum "Interview classic 150 questions/binary tree/path_sum.cpp")
 add_executable(Sum_Root_to_Leaf_Numbers "Interview classic 150 questions/binary tree/Sum_Root_to_Leaf_Numbers.cpp")
 add_executable(Binary_Search_Tree_Iterator "Interview classic 150 questions/binary tree/Binary_Search_Tree_Iterator.cpp")
+add_executable(Count_Complete_Tree_Nodes "Interview classic 150 questions/binary tree/Count_Complete_Tree_Nodes.cpp")
+add_executable(Lowest_Common_Ancestor_of_a_Binary_Tree "Interview classic 150 questions/binary tree/Lowest_Common_Ancestor_of_a_Binary_Tree.cpp")
+add_executable(Binary_Tree_Right_Side_View "Interview classic 150 questions/Traversal of binary tree levels/Binary_Tree_Right_Side_View.cpp")
+add_executable(Average_of_Levels_in_Binary_Tree "Interview classic 150 questions/Traversal of binary tree levels/Average_of_Levels_in_Binary_Tree.cpp")
+add_executable(Binary_Tree_Level_Order_Traversal "Interview classic 150 questions/Traversal of binary tree levels/Binary_Tree_Level_Order_Traversal.cpp")
