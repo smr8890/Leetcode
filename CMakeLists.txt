@@ -87,3 +87,5 @@ add_executable(Number_of_Islands "Interview classic 150 questions/graph/Number_o
 add_executable(Surrounded_Regions "Interview classic 150 questions/graph/Surrounded_Regions.cpp")
 add_executable(Clone_Graph "Interview classic 150 questions/graph/Clone_Graph.cpp")
 add_executable(Evaluate_Division "Interview classic 150 questions/graph/Evaluate_Division.cpp")
+add_executable(Snakes_and_Ladders "Interview classic 150 questions/The breadth of the figure is given priority search/Snakes_and_Ladders.cpp")
+add_executable(Minimum_Genetic_Mutation "Interview classic 150 questions/The breadth of the figure is given priority search/Minimum_Genetic_Mutation.cpp")
