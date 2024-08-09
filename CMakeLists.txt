@@ -86,3 +86,4 @@ add_executable(Validate_Binary_Search_Tree "Interview classic 150 questions/bina
 add_executable(Number_of_Islands "Interview classic 150 questions/graph/Number_of_Islands.cpp")
 add_executable(Surrounded_Regions "Interview classic 150 questions/graph/Surrounded_Regions.cpp")
 add_executable(Clone_Graph "Interview classic 150 questions/graph/Clone_Graph.cpp")
+add_executable(Evaluate_Division "Interview classic 150 questions/graph/Evaluate_Division.cpp")

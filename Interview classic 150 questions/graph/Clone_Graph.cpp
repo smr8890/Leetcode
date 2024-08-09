@@ -1,3 +1,4 @@
+#include <unordered_map>
 #include <vector>
 using namespace std;
 
@@ -24,7 +25,17 @@ public:
 };
 
 class Solution {
+    unordered_map<int, Node *> map;
+
 public:
     Node *cloneGraph(Node *node) {
+        if (node == nullptr)return nullptr;
+        if (map.count(node->val))return map[node->val];
+        Node *newNode = new Node(node->val);
+        map.insert({newNode->val, newNode});
+        for (auto neighbor: node->neighbors) {
+            newNode->neighbors.push_back(cloneGraph(neighbor));
+        }
+        return newNode;
     }
 };
