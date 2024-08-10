@@ -89,3 +89,8 @@ add_executable(Clone_Graph "Interview classic 150 questions/graph/Clone_Graph.cp
 add_executable(Evaluate_Division "Interview classic 150 questions/graph/Evaluate_Division.cpp")
 add_executable(Snakes_and_Ladders "Interview classic 150 questions/The breadth of the figure is given priority search/Snakes_and_Ladders.cpp")
 add_executable(Minimum_Genetic_Mutation "Interview classic 150 questions/The breadth of the figure is given priority search/Minimum_Genetic_Mutation.cpp")
+add_executable(Implement_Trie "Interview classic 150 questions/Trie/Implement_Trie.cpp")
+add_executable(Design_Add_and_Search_Words_Data_Structure "Interview classic 150 questions/Trie/Design_Add_and_Search_Words_Data_Structure.cpp")
+add_executable(Letter_Combinations_of_a_Phone_Number "Interview classic 150 questions/back/Letter_Combinations_of_a_Phone_Number.cpp")
+add_executable(Combinations "Interview classic 150 questions/back/Combinations.cpp")
+add_executable(Permutations "Interview classic 150 questions/back/Permutations.cpp")
