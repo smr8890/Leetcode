@@ -94,3 +94,6 @@ add_executable(Design_Add_and_Search_Words_Data_Structure "Interview classic 150
 add_executable(Letter_Combinations_of_a_Phone_Number "Interview classic 150 questions/back/Letter_Combinations_of_a_Phone_Number.cpp")
 add_executable(Combinations "Interview classic 150 questions/back/Combinations.cpp")
 add_executable(Permutations "Interview classic 150 questions/back/Permutations.cpp")
+add_executable(Combination_Sum "Interview classic 150 questions/back/Combination_Sum.cpp")
+add_executable(Generate_Parentheses "Interview classic 150 questions/back/Generate_Parentheses.cpp")
+add_executable(Word_Search "Interview classic 150 questions/back/Word_Search.cpp")
