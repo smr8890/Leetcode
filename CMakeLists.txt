@@ -97,3 +97,5 @@ add_executable(Permutations "Interview classic 150 questions/back/Permutations.c
 add_executable(Combination_Sum "Interview classic 150 questions/back/Combination_Sum.cpp")
 add_executable(Generate_Parentheses "Interview classic 150 questions/back/Generate_Parentheses.cpp")
 add_executable(Word_Search "Interview classic 150 questions/back/Word_Search.cpp")
+add_executable(Convert_Sorted_Array_to_Binary_Search_Tree "Interview classic 150 questions/Divide/Convert_Sorted_Array_to_Binary_Search_Tree.cpp")
+add_executable(Sort_List "Interview classic 150 questions/Divide/Sort_List.cpp")
