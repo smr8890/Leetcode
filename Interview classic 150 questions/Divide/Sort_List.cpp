@@ -18,48 +18,47 @@ struct ListNode {
 };
 
 class Solution {
-public:
-    bool cmp_(ListNode *a, ListNode *b) {
-        if (a->val < b->val) {
-            return true;
+    ListNode *sort(ListNode *head, ListNode *tail) {
+        if (head == nullptr)return nullptr;
+        if (head->next == tail) {
+            head->next = nullptr;
+            return head;
         }
-        return false;
+
+        ListNode *fast = head, *slow = head;
+        while (fast != tail) {
+            slow = slow->next;
+            fast = fast->next;
+            if (fast != tail)
+                fast = fast->next;
+        }
+        return merge(sort(head, slow), sort(slow, tail));
     }
 
+    ListNode *merge(ListNode *list1, ListNode *list2) {
+        ListNode *merged = new ListNode(-1);
+        ListNode *p = merged;
+        while (list1 != nullptr && list2 != nullptr) {
+            if (list1->val <= list2->val) {
+                p->next = list1;
+                list1 = list1->next;
+            } else {
+                p->next = list2;
+                list2 = list2->next;
+            }
+            p = p->next;
+        }
+        if (list1 == nullptr) {
+            p->next = list2;
+        } else {
+            p->next = list1;
+        }
+        return merged->next;
+    }
+
+public:
     ListNode *sortList(ListNode *head) {
-        ListNode *dummy = new ListNode(0, head);
-        // ListNode *cur1 = head, *pre1 = dummy;
-        // while (cur1 != nullptr) {
-        //     if (cur1->next != nullptr && cur1->val > cur1->next->val) {
-        //         ListNode *cur2 = cur1, *pre2 = pre1;
-        //         while (cur2->next != nullptr) {
-        //             if (cur2->val > cur2->next->val) {
-        //                 pre2->next = cur2->next;
-        //                 cur2->next = cur2->next->next;
-        //                 pre2->next->next = cur2;
-        //                 pre2 = pre2->next;
-        //             } else {
-        //                 break;
-        //             }
-        //         }
-        //         cur1 = pre1->next;
-        //     } else {
-        //         pre1 = cur1;
-        //         cur1 = cur1->next;
-        //     }
-        // }
-        vector<ListNode *> tmp;
-        while (head != nullptr) {
-            tmp.push_back(head);
-            head = head->next;
-        }
-        sort(tmp.begin(), tmp.end(),cmp_);
-        for (int i = 0; i < tmp.size() - 1; ++i) {
-            tmp[i]->next = tmp[i + 1];
-        }
-        tmp[tmp.size() - 1]->next = nullptr;
-        delete dummy;
-        return tmp[0];
+        return sort(head, nullptr);
     }
 };
 
