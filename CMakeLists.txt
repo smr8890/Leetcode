@@ -100,3 +100,4 @@ add_executable(Word_Search "Interview classic 150 questions/back/Word_Search.cpp
 add_executable(Convert_Sorted_Array_to_Binary_Search_Tree "Interview classic 150 questions/Divide/Convert_Sorted_Array_to_Binary_Search_Tree.cpp")
 add_executable(Sort_List "Interview classic 150 questions/Divide/Sort_List.cpp")
 add_executable(Construct_Quad_Tree "Interview classic 150 questions/Divide/Construct_Quad_Tree.cpp")
+add_executable(Maximum_Subarray "Interview classic 150 questions/Kadane algorithm/Maximum_Subarray.cpp")
