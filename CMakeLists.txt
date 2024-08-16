@@ -101,3 +101,6 @@ add_executable(Convert_Sorted_Array_to_Binary_Search_Tree "Interview classic 150
 add_executable(Sort_List "Interview classic 150 questions/Divide/Sort_List.cpp")
 add_executable(Construct_Quad_Tree "Interview classic 150 questions/Divide/Construct_Quad_Tree.cpp")
 add_executable(Maximum_Subarray "Interview classic 150 questions/Kadane algorithm/Maximum_Subarray.cpp")
+add_executable(Maximum_Sum_Circular_Subarray "Interview classic 150 questions/Kadane algorithm/Maximum_Sum_Circular_Subarray.cpp")
+add_executable(Search_Insert_Position "Interview classic 150 questions/Binary search/Search_Insert_Position.cpp")
+add_executable(Search_a_2D_Matrix "Interview classic 150 questions/Binary search/Search_a_2D_Matrix.cpp")
