@@ -104,3 +104,7 @@ add_executable(Maximum_Subarray "Interview classic 150 questions/Kadane algorith
 add_executable(Maximum_Sum_Circular_Subarray "Interview classic 150 questions/Kadane algorithm/Maximum_Sum_Circular_Subarray.cpp")
 add_executable(Search_Insert_Position "Interview classic 150 questions/Binary search/Search_Insert_Position.cpp")
 add_executable(Search_a_2D_Matrix "Interview classic 150 questions/Binary search/Search_a_2D_Matrix.cpp")
+add_executable(Find_Peak_Element "Interview classic 150 questions/Binary search/Find_Peak_Element.cpp")
+add_executable(Search_in_Rotated_Sorted_Array "Interview classic 150 questions/Binary search/Search_in_Rotated_Sorted_Array.cpp")
+add_executable(Find_First_and_Last_Position_of_Element_in_Sorted_Array "Interview classic 150 questions/Binary search/Find_First_and_Last_Position_of_Element_in_Sorted_Array.cpp")
+add_executable(Find_Minimum_in_Rotated_Sorted_Array "Interview classic 150 questions/Binary search/Find_Minimum_in_Rotated_Sorted_Array.cpp")
