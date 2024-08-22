@@ -108,3 +108,5 @@ add_executable(Find_Peak_Element "Interview classic 150 questions/Binary search/
 add_executable(Search_in_Rotated_Sorted_Array "Interview classic 150 questions/Binary search/Search_in_Rotated_Sorted_Array.cpp")
 add_executable(Find_First_and_Last_Position_of_Element_in_Sorted_Array "Interview classic 150 questions/Binary search/Find_First_and_Last_Position_of_Element_in_Sorted_Array.cpp")
 add_executable(Find_Minimum_in_Rotated_Sorted_Array "Interview classic 150 questions/Binary search/Find_Minimum_in_Rotated_Sorted_Array.cpp")
+add_executable(Kth_Largest_Element_in_an_Array "Interview classic 150 questions/heap/Kth_Largest_Element_in_an_Array.cpp")
+add_executable(Find_K_Pairs_with_Smallest_Sums "Interview classic 150 questions/heap/Find_K_Pairs_with_Smallest_Sums.cpp")
