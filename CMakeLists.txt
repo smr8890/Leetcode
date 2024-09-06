@@ -116,3 +116,6 @@ add_executable(Number_of_1_Bits "Interview classic 150 questions/Bit operation/N
 add_executable(Single_Number "Interview classic 150 questions/Bit operation/Single_Number.cpp")
 add_executable(Palindrome_Number "Interview classic 150 questions/math/Palindrome_Number.cpp")
 add_executable(plus_one "Interview classic 150 questions/math/plus_one.cpp")
+add_executable(Factorial_Trailing_Zeroes "Interview classic 150 questions/math/Factorial_Trailing_Zeroes.cpp")
+add_executable(sqrt_x "Interview classic 150 questions/math/sqrt_x.cpp")
+add_executable(pow_x_n "Interview classic 150 questions/math/pow_x_n.cpp")
