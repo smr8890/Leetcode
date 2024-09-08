@@ -124,3 +124,8 @@ add_executable(House_Robber "Interview classic 150 questions/One -dimensional dy
 add_executable(Word_Break "Interview classic 150 questions/One -dimensional dynamic planning/Word_Break.cpp")
 add_executable(Coin_Change "Interview classic 150 questions/One -dimensional dynamic planning/Coin_Change.cpp")
 add_executable(Longest_Increasing_Subsequence "Interview classic 150 questions/One -dimensional dynamic planning/Longest_Increasing_Subsequence.cpp")
+add_executable(Triangle "Interview classic 150 questions/Multi -dimensional dynamic planning/Triangle.cpp")
+add_executable(Minimum_Path_Sum "Interview classic 150 questions/Multi -dimensional dynamic planning/Minimum_Path_Sum.cpp")
+add_executable(Unique_Paths_II "Interview classic 150 questions/Multi -dimensional dynamic planning/Unique_Paths_II.cpp")
+add_executable(Longest_Palindromic_Substring "Interview classic 150 questions/Multi -dimensional dynamic planning/Longest_Palindromic_Substring.cpp")
+add_executable(Maximal_Square "Interview classic 150 questions/Multi -dimensional dynamic planning/Maximal_Square.cpp")
