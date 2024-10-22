@@ -1,52 +1,81 @@
-#include<iostream>
-using namespace std;
-//考察矩阵运算，综合了线性代数知识
-int n,d;
-int Q[101][11],KT[11][101],V[101][11];//此处，转置这个行为可以在一开始输入的时候就完成
-int W[101];
-long long temp[101][101],temp2[101][11];//临时变量保存
+#include <stdio.h>
+
+int count = 0;
+int chess[8][8]={0};
+
+int notDanger( int row, int col )
+{
+    int i,k;
+    // 判断列方向
+    for( i=0; i < 8; i++ )
+    {
+        if( chess[i][col]==1 )
+        {
+            return 0;
+        }
+    }
+    // 判断左对角线
+    for( i=row, k=col; i>=0 && k>=0; i--, k-- )
+    {
+        if(chess[i][k]==1  )
+        {
+            return 0;
+        }
+    }
+    // 判断右对角线
+    for( i=row, k=col; i>=0 && k<8; i--, k++ )
+    {
+        if(chess[i][k]==1  )
+        {
+            return 0;
+        }
+    }
+    return 1;
+}
+
+void Print()          //打印结果
+{
+    int row,col;
+    printf("第 %d 种\n", count+1);
+    for( row=0; row < 8; row++ )
+    {
+        for( col=0; col< 8; col++ )
+        {
+            if(chess[row][col]==1)        //皇后用‘0’表示
+            {
+                printf("%d",col+1);
+            }
+        }
+    }
+    printf("\n");
+}
+
+void EightQueen( int row )
+{
+    int col;
+    if( row>7 )                       //如果遍历完八行都找到放置皇后的位置则打印
+    {
+        Print();                       //打印八皇后的解
+        count++;
+        return ;
+
+    }
+
+    for( col=0; col < 8; col++ )        //回溯，递归
+    {
+        if( notDanger( row, col ) )    // 判断是否危险
+        {
+            chess[row][col]=1;
+            EightQueen(row+1);
+
+            chess[row][col]=0;           //清零，以免回溯时出现脏数据
+        }
+    }
+}
+
 int main()
 {
-    cin>>n>>d;
-    for(int i=1;i<=n;i++)
-        for(int j=1;j<=d;j++)
-            cin>>Q[i][j];
-
-    for(int i=1;i<=n;i++)
-        for(int j=1;j<=d;j++)
-            cin>>KT[j][i]; //矩阵转置可以在一开始就完成，将列输入成行的形式
-
-    for(int i=1;i<=n;i++)
-        for(int j=1;j<=d;j++)
-            cin>>V[i][j];
-
-    for(int i=1;i<=n;i++)
-        cin>>W[i];
-    //完成输入
-
-    for(int i=1;i<=n;i++)
-        for(int j=1;j<=n;j++)
-        {
-            for(int k=1;k<=d;k++)
-                temp[i][j]+=Q[i][k]*KT[k][j];//矩阵乘法的形式，由计算可知为n*n
-        }
-
-    for(int i=1;i<=n;i++)
-        for(int j=1;j<=n;j++)
-        {
-            temp[i][j]=temp[i][j]*W[i];//W[i]因为每个都要乘他的数
-        }
-
-    for(int i=1;i<=n;i++)
-        for(int j=1;j<=d;j++)
-        {
-            for(int k=1;k<=n;k++)
-                temp2[i][j]+=temp[i][k]*V[k][j];//矩阵乘法的形式，由计算可知为n*d
-        }
-    for(int i=1;i<=n;i++)
-    {
-        for(int j=1;j<=d;j++)
-            cout<<temp2[i][j]<<" ";
-        cout<<endl;
-    }
+    EightQueen(0);
+    printf("count %d \n\n", count);
+    return 0;
 }
